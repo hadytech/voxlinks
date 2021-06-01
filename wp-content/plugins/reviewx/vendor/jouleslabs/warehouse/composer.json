@@ -1,0 +1,19 @@
+{
+    "name": "jouleslabs/warehouse",
+    "description": "Microframework for wordpress plugin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hashemi Rafsan",
+            "email": "rafsanhashemi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JoulesLabs\\Warehouse\\": "src/"
+        }
+    }
+}

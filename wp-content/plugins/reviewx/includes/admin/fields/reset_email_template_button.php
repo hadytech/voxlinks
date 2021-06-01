@@ -1,0 +1,1 @@
+<button type="button" id="resetEmailTemplate"><?php _e('Reset Email Template', 'reviewx'); ?></button>

@@ -1,0 +1,1 @@
+<?php esc_html_e( 'N/A', 'reviewx' ); ?>

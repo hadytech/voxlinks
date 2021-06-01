@@ -1,0 +1,86 @@
+#templately-guten-icon {
+    margin: 0 15px;
+    display: flex;
+}
+#templately-guten-icon + #elementor-switch-mode {
+    margin-left: 0;
+}
+
+.elementor-add-new-section .elementor-add-section-area-button.elementor-add-templately-button,
+#templately-guten-icon .gutenberg-templately-icon {
+    background-color: #5d4fff;
+    background-image: url('../images/logo-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 5px;
+}
+
+#templately-guten-icon .gutenberg-templately-icon {
+    display: inline-block;
+    width: 20px;
+    height: 33px;
+    margin-left: 0px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+#templately-guten-icon .gutenberg-add-templately-button {
+    height: 33px;
+    border: none;
+    margin: 2px;
+    line-height: 33px;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #5d4fff;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    transition: background-color 0.1s ease-in 0s;
+}
+
+#templately-guten-icon .gutenberg-add-templately-button:focus,
+#templately-guten-icon .gutenberg-add-templately-button:visited {
+    outline: none;
+}
+#templately-guten-icon .gutenberg-add-templately-button:hover {
+    background-color: #493ce4;
+}
+
+
+.elementor-add-new-section .elementor-add-section-area-button.elementor-add-templately-button i.eicon-plus:before {
+    content: "";
+    display: inline-block;
+}
+
+#templatelyGutenberg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 9999;
+}
+
+#templatelyGutenberg .templately-modal-templately-overlay {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+#templatelyGutenberg .templately-modal-templately {
+    width: 1200px;
+    height: 80%;
+    left: calc( 50% - 600px );
+    top: calc( 50% - 40% );
+    position: absolute;
+    z-index: 9999999;
+    max-height: 800px;
+}

@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'eicon';
+  src:  url('fonts/eicon.eot?85vupd');
+  src:  url('fonts/eicon.eot?85vupd#iefix') format('embedded-opentype'),
+    url('fonts/eicon.ttf?85vupd') format('truetype'),
+    url('fonts/eicon.woff?85vupd') format('woff'),
+    url('fonts/eicon.svg?85vupd#eicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.easy-page-body .eicon,
+.easyjobs-frontend-wrapper .eicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'eicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.easy-page-body .e-thumbnail:before,
+.easyjobs-frontend-wrapper .e-thumbnail:before {
+  content: "\e904";
+}
+.easy-page-body .e-trello:before,
+.easyjobs-frontend-wrapper .e-trello:before {
+  content: "\e906";
+}
+.easy-page-body .e-close:before,
+.easyjobs-frontend-wrapper .e-close:before {
+  content: "\e916";
+}
+.easy-page-body .e-arrow-up:before,
+.easyjobs-frontend-wrapper .e-arrow-up:before {
+  content: "\e905";
+}
+.easy-page-body .e-graphic:before,
+.easyjobs-frontend-wrapper .e-graphic:before {
+  content: "\e801";
+}
+.easy-page-body .e-men:before,
+.easyjobs-frontend-wrapper .e-men:before {
+  content: "\e802";
+}
+.easy-page-body .e-office:before,
+.easyjobs-frontend-wrapper .e-office:before {
+  content: "\e803";
+}
+.easy-page-body .e-sort-down:before,
+.easyjobs-frontend-wrapper .e-sort-down:before {
+  content: "\e804";
+}
+.easy-page-body .e-sort-up:before,
+.easyjobs-frontend-wrapper .e-sort-up:before {
+  content: "\e805";
+}
+.easy-page-body .e-double-angle-right:before,
+.easyjobs-frontend-wrapper .e-double-angle-right:before {
+  content: "\e806";
+}
+.easy-page-body .e-google-cf .path1:before,
+.easyjobs-frontend-wrapper .e-google-cf .path1:before {
+  content: "\e900";
+  color: rgb(255, 121, 118);
+}
+.easy-page-body .e-google-cf .path2:before,
+.easyjobs-frontend-wrapper .e-google-cf .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(244, 215, 44);
+}
+.easy-page-body .e-google-cf .path3:before,
+.easyjobs-frontend-wrapper .e-google-cf .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(89, 201, 110);
+}
+.easy-page-body .e-google-cf .path4:before,
+.easyjobs-frontend-wrapper .e-google-cf .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(15, 174, 244);
+}
+.easy-page-body .e-linkedin-cf:before,
+.easyjobs-frontend-wrapper .e-linkedin-cf:before {
+  content: "\e909";
+  color: #0077b5;
+}
+.easy-page-body .e-tick-alt:before,
+.easyjobs-frontend-wrapper .e-tick-alt:before {
+  content: "\e90a";
+}
+.easy-page-body .e-tick:before,
+.easyjobs-frontend-wrapper .e-tick:before {
+  content: "\e90b";
+}
+.easy-page-body .e-tick-o:before,
+.easyjobs-frontend-wrapper .e-tick-o:before {
+  content: "\e90c";
+}
+.easy-page-body .e-check:before,
+.easyjobs-frontend-wrapper .e-check:before {
+  content: "\e90d";
+}
+.easy-page-body .e-check-alt:before,
+.easyjobs-frontend-wrapper .e-check-alt:before {
+  content: "\e90e";
+}
+.easy-page-body .e-check-o:before,
+.easyjobs-frontend-wrapper .e-check-o:before {
+  content: "\e90f";
+}
+.easy-page-body .e-back:before,
+.easyjobs-frontend-wrapper .e-back:before {
+  content: "\e910";
+}
+.easy-page-body .e-logout:before,
+.easyjobs-frontend-wrapper .e-logout:before {
+  content: "\e911";
+}
+.easy-page-body .e-arrow-left:before,
+.easyjobs-frontend-wrapper .e-arrow-left:before {
+  content: "\e912";
+}
+.easy-page-body .e-arrow-down:before,
+.easyjobs-frontend-wrapper .e-arrow-down:before {
+  content: "\e913";
+}
+.easy-page-body .e-arrow-right:before,
+.easyjobs-frontend-wrapper .e-arrow-right:before {
+  content: "\e914";
+}
+.easy-page-body .e-plus:before,
+.easyjobs-frontend-wrapper .e-plus:before {
+  content: "\e915";
+}
+.easy-page-body .e-close2:before,
+.easyjobs-frontend-wrapper .e-close2:before {
+  content: "\e807";
+}
+.easy-page-body .e-delete:before,
+.easyjobs-frontend-wrapper .e-delete:before {
+  content: "\e917";
+}
+.easy-page-body .e-rotate-right:before,
+.easyjobs-frontend-wrapper .e-rotate-right:before {
+  content: "\e918";
+}
+.easy-page-body .e-search:before,
+.easyjobs-frontend-wrapper .e-search:before {
+  content: "\e919";
+}
+.easy-page-body .e-download:before,
+.easyjobs-frontend-wrapper .e-download:before {
+  content: "\e91a";
+}
+.easy-page-body .e-pencil:before,
+.easyjobs-frontend-wrapper .e-pencil:before {
+  content: "\e91b";
+}
+.easy-page-body .e-edit:before,
+.easyjobs-frontend-wrapper .e-edit:before {
+  content: "\e91c";
+}
+.easy-page-body .e-bold:before,
+.easyjobs-frontend-wrapper .e-bold:before {
+  content: "\e91d";
+}
+.easy-page-body .e-italic:before,
+.easyjobs-frontend-wrapper .e-italic:before {
+  content: "\e91e";
+}
+.easy-page-body .e-underline:before,
+.easyjobs-frontend-wrapper .e-underline:before {
+  content: "\e91f";
+}
+.easy-page-body .e-user:before,
+.easyjobs-frontend-wrapper .e-user:before {
+  content: "\e920";
+}
+.easy-page-body .e-users:before,
+.easyjobs-frontend-wrapper .e-users:before {
+  content: "\e921";
+}
+.easy-page-body .e-users-team:before,
+.easyjobs-frontend-wrapper .e-users-team:before {
+  content: "\e922";
+}
+.easy-page-body .e-eye-1:before,
+.easyjobs-frontend-wrapper .e-eye-1:before {
+  content: "\e923";
+}
+.easy-page-body .e-eye-alt:before,
+.easyjobs-frontend-wrapper .e-eye-alt:before {
+  content: "\e924";
+}
+.easy-page-body .e-briefcase:before,
+.easyjobs-frontend-wrapper .e-briefcase:before {
+  content: "\e925";
+}
+.easy-page-body .e-briefcase-2:before,
+.easyjobs-frontend-wrapper .e-briefcase-2:before {
+  content: "\e926";
+}
+.easy-page-body .e-mail:before,
+.easyjobs-frontend-wrapper .e-mail:before {
+  content: "\e927";
+}
+.easy-page-body .e-browser:before,
+.easyjobs-frontend-wrapper .e-browser:before {
+  content: "\e928";
+}
+.easy-page-body .e-map-maker:before,
+.easyjobs-frontend-wrapper .e-map-maker:before {
+  content: "\e929";
+}
+.easy-page-body .e-share:before,
+.easyjobs-frontend-wrapper .e-share:before {
+  content: "\e92a";
+}
+.easy-page-body .e-phone:before,
+.easyjobs-frontend-wrapper .e-phone:before {
+  content: "\e92b";
+}
+.easy-page-body .e-notification:before,
+.easyjobs-frontend-wrapper .e-notification:before {
+  content: "\e92c";
+}
+.easy-page-body .e-notification-o:before,
+.easyjobs-frontend-wrapper .e-notification-o:before {
+  content: "\e958";
+}
+.easy-page-body .e-chat:before,
+.easyjobs-frontend-wrapper .e-chat:before {
+  content: "\e92d";
+}
+.easy-page-body .e-chat-alt:before,
+.easyjobs-frontend-wrapper .e-chat-alt:before {
+  content: "\e957";
+}
+.easy-page-body .e-graduation:before,
+.easyjobs-frontend-wrapper .e-graduation:before {
+  content: "\e92e";
+}
+.easy-page-body .e-credit-card:before,
+.easyjobs-frontend-wrapper .e-credit-card:before {
+  content: "\e956";
+}
+.easy-page-body .e-portfolio:before,
+.easyjobs-frontend-wrapper .e-portfolio:before {
+  content: "\e92f";
+}
+.easy-page-body .e-list:before,
+.easyjobs-frontend-wrapper .e-list:before {
+  content: "\e930";
+}
+.easy-page-body .e-contract:before,
+.easyjobs-frontend-wrapper .e-contract:before {
+  content: "\e931";
+}
+.easy-page-body .e-duplicate:before,
+.easyjobs-frontend-wrapper .e-duplicate:before {
+  content: "\e932";
+}
+.easy-page-body .e-cv:before,
+.easyjobs-frontend-wrapper .e-cv:before {
+  content: "\e933";
+}
+.easy-page-body .e-document:before,
+.easyjobs-frontend-wrapper .e-document:before {
+  content: "\e934";
+}
+.easy-page-body .e-paper:before,
+.easyjobs-frontend-wrapper .e-paper:before {
+  content: "\e935";
+}
+.easy-page-body .e-file:before,
+.easyjobs-frontend-wrapper .e-file:before {
+  content: "\e955";
+}
+.easy-page-body .e-pdf:before,
+.easyjobs-frontend-wrapper .e-pdf:before {
+  content: "\e936";
+}
+.easy-page-body .e-pass:before,
+.easyjobs-frontend-wrapper .e-pass:before {
+  content: "\e954";
+}
+.easy-page-body .e-diagram:before,
+.easyjobs-frontend-wrapper .e-diagram:before {
+  content: "\e937";
+}
+.easy-page-body .e-print:before,
+.easyjobs-frontend-wrapper .e-print:before {
+  content: "\e938";
+}
+.easy-page-body .e-dob:before,
+.easyjobs-frontend-wrapper .e-dob:before {
+  content: "\e953";
+}
+.easy-page-body .e-calender:before,
+.easyjobs-frontend-wrapper .e-calender:before {
+  content: "\e939";
+}
+.easy-page-body .e-flags:before,
+.easyjobs-frontend-wrapper .e-flags:before {
+  content: "\e952";
+}
+.easy-page-body .e-gender:before,
+.easyjobs-frontend-wrapper .e-gender:before {
+  content: "\e951";
+}
+.easy-page-body .e-clock:before,
+.easyjobs-frontend-wrapper .e-clock:before {
+  content: "\e93a";
+}
+.easy-page-body .e-pipe:before,
+.easyjobs-frontend-wrapper .e-pipe:before {
+  content: "\e93b";
+}
+.easy-page-body .e-more:before,
+.easyjobs-frontend-wrapper .e-more:before {
+  content: "\e93c";
+}
+.easy-page-body .e-more-horiz:before,
+.easyjobs-frontend-wrapper .e-more-horiz:before {
+  content: "\e950";
+}
+.easy-page-body .e-home:before,
+.easyjobs-frontend-wrapper .e-home:before {
+  content: "\e93d";
+}
+.easy-page-body .e-star:before,
+.easyjobs-frontend-wrapper .e-star:before {
+  content: "\e93e";
+}
+.easy-page-body .e-setting:before,
+.easyjobs-frontend-wrapper .e-setting:before {
+  content: "\e93f";
+}
+.easy-page-body .e-key:before,
+.easyjobs-frontend-wrapper .e-key:before {
+  content: "\e940";
+}
+.easy-page-body .e-facebook:before,
+.easyjobs-frontend-wrapper .e-facebook:before {
+  content: "\e941";
+}
+.easy-page-body .e-twitter:before,
+.easyjobs-frontend-wrapper .e-twitter:before {
+  content: "\e942";
+}
+.easy-page-body .e-linkedin:before,
+.easyjobs-frontend-wrapper .e-linkedin:before {
+  content: "\e943";
+}
+.easy-page-body .e-parachute:before,
+.easyjobs-frontend-wrapper .e-parachute:before {
+  content: "\e944";
+}
+.easy-page-body .e-plane:before,
+.easyjobs-frontend-wrapper .e-plane:before {
+  content: "\e945";
+}
+.easy-page-body .e-helicopter:before,
+.easyjobs-frontend-wrapper .e-helicopter:before {
+  content: "\e946";
+}
+.easy-page-body .e-send:before,
+.easyjobs-frontend-wrapper .e-send:before {
+  content: "\e947";
+}
+.easy-page-body .e-spaceship:before,
+.easyjobs-frontend-wrapper .e-spaceship:before {
+  content: "\e948";
+}
+.easy-page-body .e-boost:before,
+.easyjobs-frontend-wrapper .e-boost:before {
+  content: "\e949";
+}
+.easy-page-body .e-checkmark:before,
+.easyjobs-frontend-wrapper .e-checkmark:before {
+  content: "\ea10";
+}

@@ -1,0 +1,25 @@
+{
+    "name": "reviewx/reviewx",
+    "description": "\\",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "jouleslabs/warehouse": "dev-master",
+        "ext-json": "*"
+
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url" : "https://github.com/JoulesLabs/warehouse"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ReviewX\\": "app/"
+        },
+        "files": [
+            "app/Support/Helpers.php"
+        ]
+    }
+}

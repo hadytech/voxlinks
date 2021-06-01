@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use JoulesLabs\Warehouse\Foundation\AppFacade;
+
+class DummyClass extends AppFacade
+{
+	static $key = 'DummyKey';
+}

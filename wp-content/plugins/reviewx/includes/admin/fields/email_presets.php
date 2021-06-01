@@ -1,0 +1,1 @@
+<p class="rx-email-preset"><span class="rx-email-preset-title"><?php esc_html_e( 'Preset Placeholders:', 'reviewx' );?></span> <span class="rx-email-preset-placeholder">[CUSTOMER_NAME], [SHOP_NAME], [ORDER_ID], [ORDER_DATE], [ORDER_ITEMS], [MY_ORDERS_PAGE], [UNSUBSCRIBE_LINK]</span></p>

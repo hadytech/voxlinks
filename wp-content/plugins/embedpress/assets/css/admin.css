@@ -1,0 +1,506 @@
+/**
+ * @package     EmbedPress
+ * @author      EmbedPress <help@embedpress.com>
+ * @copyright   Copyright (C) 2018 EmbedPress. All rights reserved.
+ * @license     GPLv2 or later
+ * @since       1.3.1
+ */
+
+/**
+ * WordPress's admin sidebar.
+ */
+#toplevel_page_embedpress > a.current,
+#toplevel_page_embedpress > a.wp-has-current-submenu {
+    background-color: #655997 !important;
+}
+
+#toplevel_page_embedpress .dashicons-admin-generic::before,
+#toplevel_page_embedpress .current .dashicons-admin-generic::before {
+    background-image: url(../images/menu-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    background-size: 19px auto;
+    content: " ";
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+#toplevel_page_embedpress:active .wp-not-current-submenu .dashicons-admin-generic::before,
+#toplevel_page_embedpress:hover .wp-not-current-submenu .dashicons-admin-generic::before {
+    background-position: 0 -26px;
+}
+
+#toplevel_page_embedpress > a.wp-has-current-submenu .dashicons-admin-generic::before,
+#toplevel_page_embedpress .current .dashicons-admin-generic::before {
+    background-position: 0 -60px;
+}
+
+/**
+ * Helper classes.
+ */
+.ep-label-danger {
+    color: #D54E21;
+}
+
+.ep-label-success {
+    color: #5CA410;
+}
+
+.ep-small-link {
+    line-height: 28px;
+    font-size: 0.8em;
+}
+
+.ep-small-spacing {
+    margin-left: 5px;
+}
+
+/**
+ * EmbedPress Settings Wrapper.
+ */
+
+#embedpress-settings-wrapper {
+    margin-top: 15px;
+}
+
+#embedpress-settings-wrapper > header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#embedpress-settings-wrapper > header .pressshack-title {
+    display: inline-block;
+    padding: 10px 0 10px 55px;
+    background-image: url(../images/icon-128x128.png);
+    background-size: 45px auto;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#embedpress-settings-wrapper > header h1 {
+    margin: .67em 0 15px .15em;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+#embedpress-settings-wrapper > header h1 a,
+#embedpress-settings-wrapper > header h1 a:hover,
+#embedpress-settings-wrapper > header h1 a:focus,
+#embedpress-settings-wrapper > header h1 a:active {
+    color: #23282d;
+}
+
+#embedpress-settings-wrapper .nav-tab-wrapper .nav-tab {
+    color: inherit;
+}
+
+#embedpress-settings-wrapper .nav-tab-wrapper .nav-tab-active {
+    border-top-color: #655997;
+    color: #655997;
+}
+
+#embedpress-settings-wrapper .nav-tab-wrapper .nav-tab:not(.nav-tab-active):hover {
+    color: #555;
+}
+
+#embedpress-settings-wrapper input:not([type="checkbox"]):not([type="radio"]):not(.wp-color-picker):not(.wp-picker-clear) {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 4.5px 10px;
+}
+
+#embedpress-settings-wrapper input:focus,
+#embedpress-settings-wrapper select:focus,
+#embedpress-settings-wrapper textarea:focus,
+#embedpress-settings-wrapper button:not(.notice-dismiss):not([type="submit"]):active,
+#embedpress-settings-wrapper button:not(.notice-dismiss):not([type="submit"]):focus,
+#embedpress-settings-wrapper a:active,
+#embedpress-settings-wrapper a:focus {
+    -webkit-box-shadow: 0 0 2px rgba(101, 89, 151, .8);
+    -moz-box-shadow: 0 0 2px rgba(101, 89, 151, .8);
+    box-shadow: 0 0 2px rgba(101, 89, 151, .8);
+}
+
+#embedpress-settings-wrapper input:focus,
+#embedpress-settings-wrapper select:focus,
+#embedpress-settings-wrapper textarea:focus,
+#embedpress-settings-wrapper button:not(.notice-dismiss):not([type="submit"]):active,
+#embedpress-settings-wrapper button:not(.notice-dismiss):not([type="submit"]):focus {
+    border-color: #9D94C9;
+}
+
+#embedpress-settings-wrapper input[type="radio"]::before {
+    background-color: #9D94C9;
+}
+
+#embedpress-settings-wrapper > footer {
+    text-align: center;
+}
+
+#embedpress-settings-wrapper > footer p {
+    color: #666;
+    font-size: 12px;
+}
+
+#embedpress-settings-wrapper > footer .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+#embedpress-settings-wrapper > footer .dashicons.dashicons-star-filled {
+    line-height: 18px;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    color: #FFB300;
+    -webkit-transition: color 200ms ease-in-out;
+    -moz-transition: color 200ms ease-in-out;
+    -o-transition: color 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
+}
+
+#embedpress-settings-wrapper > footer a:hover .dashicons.dashicons-star-filled {
+    color: #C58C07;
+}
+
+#embedpress-settings-wrapper > footer > nav ul {
+    list-style: none;
+}
+
+#embedpress-settings-wrapper > footer > nav ul > li {
+    display: inline-block;
+}
+
+#embedpress-settings-wrapper > footer > nav ul > li:not(:first-child) {
+    margin-left: 15px;
+}
+
+#embedpress-settings-wrapper > footer > nav ul > li > a {
+    font-weight: bold;
+}
+
+#embedpress-settings-wrapper a {
+    color: #777;
+}
+
+#embedpress-settings-wrapper a,
+#embedpress-settings-wrapper button
+#embedpress-settings-wrapper button::before {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#embedpress-settings-wrapper a:link,
+#embedpress-settings-wrapper a:visited,
+#embedpress-settings-wrapper a:active,
+#embedpress-settings-wrapper a:hover {
+    text-decoration: none;
+}
+
+#embedpress-settings-wrapper a:hover {
+    color: #9D94C9;
+}
+
+#embedpress-settings-wrapper .button-primary {
+    line-height: 1;
+    border: none;
+    border-radius: 0;
+    background-color: #dc4444;
+    color: #ffffff;
+    font-size: 14px;
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    transition: all .3s;
+    text-shadow: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+#embedpress-settings-wrapper button:not(.notice-dismiss).button-secondary {
+    background-color: #655997;
+    border-color: #363050;
+    color: #FFF;
+}
+
+#embedpress-settings-wrapper button:not(.notice-dismiss).button-secondary:hover {
+    background-color: #5A4F87;
+}
+
+#embedpress-settings-wrapper button:not(.notice-dismiss) {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: initial;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    vertical-align: middle;
+    line-height: 0;
+    min-height: 28px;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#embedpress-settings-wrapper button:not(.notice-dismiss):hover,
+#embedpress-settings-wrapper button:not(.notice-dismiss):active,
+#embedpress-settings-wrapper button:not(.notice-dismiss):focus {
+    outline: none;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#embedpress-settings-wrapper > #setting-error-settings_updated {
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+#embedpress-settings-wrapper > #setting-error-settings_updated button.notice-dismiss:hover::before {
+    color: #655997;
+}
+
+.embedpress-col-half {
+    width: 49%;
+    height: auto;
+}
+
+.embedpress-admin-block-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: -10px;
+}
+
+.embedpress-admin-block-wrapper .embedpress-admin-block {
+    background-color: #fff;
+    flex: 1 1 auto;
+    min-width: 250px;
+    width: 300px;
+    margin: 10px 10px 25px 10px;
+    box-shadow: 0px 8px 38px 0px rgba(16, 16, 16, 0.07);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.embedpress-admin-block-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 30px 0 0 25px;
+}
+
+.embedpress-admin-block-header-icon {
+    height: 40px;
+    width: 40px;
+    background: #f3edff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.embedpress-go-premium img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    float: right;
+}
+
+.embedpress-admin-block-header .embedpress-admin-title {
+    margin: 0.7em 0 1em;
+    padding: 0 1.26582em;
+    font-size: 15px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.embedpress-go-premium .embedpress-admin-block-content {
+    overflow: hidden;
+    position: relative;
+    padding: 1em 1.5em 1.5em;
+    background-color: #fff;
+    padding-left: 85px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.embedpress-admin-block-content p {
+    font-size: 13px;
+    color: #707070;
+    margin: 0px 0 20px 0;
+    line-height: 21px;
+}
+
+.embedpress-go-premium .embedpress-btn:hover,
+.embedpress-go-premium .embedpress-btn {
+    background-color: #0099cc;
+    color: #fff !important;
+    padding: 6px 20px;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    height: auto;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: 0.05em;
+}
+
+.modal-dialog .row {
+    width: 100%;
+}
+
+.embedpress-version-name {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.embedpress-version-name span{
+    color: #687b95;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+    display: block;
+    padding-bottom: 5px;
+}
+
+
+/**
+ * Fremius tweaks
+ */
+
+#piframe,
+.fs-secure-notice {
+    display: none;
+}
+
+/**
+* Notice
+**/
+
+.wpdeveloper-review-notice {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 15px;
+    border-left: 4px solid transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wpdeveloper-review-notice:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wpdeveloper-update-notice{
+    margin-top: 20px;
+}
+.wpdeveloper-update-notice .notice-dismiss {
+    top: auto;
+}
+.wpdeveloper-notice-thumbnail {
+    width: 40px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    border-right: 4px solid transparent;
+}
+.wpdeveloper-notice-thumbnail img {
+    width: 100%;
+    opacity: 0.85;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.wpdeveloper-notice-thumbnail img:hover {
+    opacity: 1;
+}
+
+.wpdeveloper-notice-link {
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+.wpdeveloper-notice-link li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.wpdeveloper-notice-link li a {
+    display: inline-block;
+    color: #10738b;
+    text-decoration: none;
+    padding-left: 26px;
+    position: relative;
+}
+.wpdeveloper-notice-link li a span {
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.wpdeveloper-notice-message {
+    padding: 10px 0;
+}
+.wpdeveloper-upsale-notice .wpdeveloper-notice-message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.wpdeveloper-upsale-notice .wpdeveloper-notice-message + .notice-dismiss {
+    top: 10px;
+}
+.wpdeveloper-upsale-notice #plugin-install-core {
+    margin-left: 10px;
+}
+.notice.notice-has-thumbnail {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+.wpdeveloper-upsale-notice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.wpdeveloper-upsale-notice .wpdeveloper-notice-thumbnail {
+    padding: 10px;
+    width: 40px;
+}
+.wpdeveloper-upsale-notice .wpdeveloper-notice-thumbnail img {
+    width: 32px;
+}
+.toplevel_page_eael-settings .wp-menu-image img {
+    max-width: 20px;
+    padding-top: 8px !important;
+}
+.wpdeveloper-upsale-notice .wpdeveloper-notice-message .button {
+    margin-left: 15px;
+}
+
+#embedpress-settings-wrapper a.embedpress-settings-link {
+    color: #0073aa;
+}
+
+.embedpress-go-pro-action {
+    color: #39b54a;
+    text-shadow: 1px 1px 1px #eee;
+    font-weight: bold;
+}

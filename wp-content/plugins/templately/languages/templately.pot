@@ -1,0 +1,694 @@
+# Copyright (C) 2021 Templately
+# This file is distributed under the same license as the Templately plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Templately 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templately\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-08T09:55:56+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: templately\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: core/admin/class-admin.php:63
+#: core/admin/views/header.php:3
+#: src/editor.js:82
+msgid "Templately"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://templately.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Best Templates Cloud for Elementor & Gutenberg. Get access to stunning templates, WorkSpace, Cloud Library & many more."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://templately.com/"
+msgstr ""
+
+#: core/admin/class-admin.php:64
+msgid "requires"
+msgstr ""
+
+#: core/admin/class-admin.php:65
+#: core/api/class-api.php:740
+msgid "Elementor"
+msgstr ""
+
+#: core/admin/class-admin.php:66
+msgid "plugin to be installed and activated. Please install Elementor to continue."
+msgstr ""
+
+#: core/admin/views/header.php:6
+msgid "Version"
+msgstr ""
+
+#: core/api/class-api.php:62
+msgid "Something went wrong. Nonce Issue."
+msgstr ""
+
+#: core/api/class-api.php:66
+#: core/api/class-api.php:465
+#: core/api/class-api.php:684
+#: core/api/class-api.php:721
+#: core/api/class-api.php:779
+#: core/api/class-api.php:1385
+#: src/components/body/admin/Settings.js:44
+#: src/components/body/templates/TemplateTableRow.js:86
+msgid "Something went wrong."
+msgstr ""
+
+#: core/api/class-api.php:233
+msgid "Something Went Wrong"
+msgstr ""
+
+#: core/api/class-api.php:236
+msgid "There is nothing to save in your template."
+msgstr ""
+
+#: core/api/class-api.php:239
+msgid "No ID found to save your template."
+msgstr ""
+
+#: core/api/class-api.php:335
+#: core/api/class-api.php:847
+msgid "Something went wrong with fetching dependencies data."
+msgstr ""
+
+#: core/api/class-api.php:473
+msgid "Activate Your Account!"
+msgstr ""
+
+#: core/api/class-api.php:518
+#: core/api/class-api.php:529
+#: core/api/class-api.php:820
+#: core/api/class-api.php:858
+#: core/api/class-api.php:893
+#: core/api/class-api.php:938
+msgid "Something went wrong!"
+msgstr ""
+
+#: core/api/class-api.php:542
+msgid "Templates ID Not Found."
+msgstr ""
+
+#: core/api/class-api.php:567
+msgid "There is no Template Content to be inserted."
+msgstr ""
+
+#: core/api/class-api.php:572
+msgid "Name can't be empty."
+msgstr ""
+
+#: core/api/class-api.php:576
+msgid "Data has to be an array."
+msgstr ""
+
+#: core/api/class-api.php:579
+msgid "There is no data to insert."
+msgstr ""
+
+#: core/api/class-api.php:586
+msgid "API Key is not found, try to re-login."
+msgstr ""
+
+#: core/api/class-api.php:633
+msgid "ID not found to push the item in cloud."
+msgstr ""
+
+#: core/api/class-api.php:651
+#: core/api/class-api.php:1014
+msgid "Something went wrong"
+msgstr ""
+
+#: core/api/class-api.php:663
+msgid "ID not found to remove Template from Cloud."
+msgstr ""
+
+#: core/api/class-api.php:667
+msgid "You have no rights to delete file from Cloud. You have to logged in first"
+msgstr ""
+
+#: core/api/class-api.php:756
+msgid "You have the plugin installed."
+msgstr ""
+
+#: core/api/class-api.php:879
+msgid "Something went wrong with Import!"
+msgstr ""
+
+#: core/api/class-api.php:964
+msgid "API Key Field Cannot be Empty."
+msgstr ""
+
+#: core/api/class-api.php:975
+#: core/api/class-api.php:1039
+msgid "Make sure you have given a valid email address."
+msgstr ""
+
+#: core/api/class-api.php:979
+msgid "Password Field Cannot be Empty."
+msgstr ""
+
+#: core/api/class-api.php:997
+msgid "Something went wrong. Maybe Invalid Credentials."
+msgstr ""
+
+#: core/api/class-api.php:1029
+msgid "First Name Can't be Empty."
+msgstr ""
+
+#: core/api/class-api.php:1032
+msgid "Last Name Can't be Empty."
+msgstr ""
+
+#: core/api/class-api.php:1036
+msgid "Email Field Can't be Empty."
+msgstr ""
+
+#: core/api/class-api.php:1043
+msgid "Password Field Can't be Empty."
+msgstr ""
+
+#: core/api/class-api.php:1158
+msgid "API Key is not found"
+msgstr ""
+
+#: core/api/class-api.php:1174
+msgid "Successfully Connected"
+msgstr ""
+
+#: core/api/class-api.php:1187
+msgid "Template ID is not found to delete"
+msgstr ""
+
+#: core/api/class-api.php:1199
+msgid "Successfully Deleted."
+msgstr ""
+
+#: core/api/class-api.php:1240
+msgid "You have to logged in first via your admin dashboard."
+msgstr ""
+
+#: core/api/class-api.php:1265
+msgid "Logged Out"
+msgstr ""
+
+#: core/api/class-api.php:1330
+msgid "Something went wrong. Please, try logged in again."
+msgstr ""
+
+#: core/api/class-api.php:1335
+msgid "Item ID or Item Type is not found."
+msgstr ""
+
+#: core/api/class-api.php:1391
+#: core/api/class-api.php:1427
+#: core/api/class-api.php:1455
+#: core/api/class-api.php:1505
+#: core/api/class-api.php:1532
+#: core/api/class-api.php:1564
+#: core/api/class-api.php:1602
+#: core/api/class-api.php:1622
+msgid "You need to re-logged in."
+msgstr ""
+
+#: core/api/class-api.php:1421
+msgid "Something went wrong loading WorkSpace. Try again or contact with Templately Support."
+msgstr ""
+
+#: core/api/class-api.php:1431
+#: core/api/class-api.php:1459
+msgid "You have to give title at least."
+msgstr ""
+
+#: core/api/class-api.php:1449
+msgid "Something went wrong regarding create WorkSpace. Try again or contact with Templately Support."
+msgstr ""
+
+#: core/api/class-api.php:1475
+#: core/api/class-api.php:1509
+msgid "Workspace not found."
+msgstr ""
+
+#: core/api/class-api.php:1526
+msgid "Something went wrong regarding delete WorkSpace. Try again or contact with Templately Support."
+msgstr ""
+
+#: core/api/class-api.php:1537
+msgid "No Cloud Item is selected to"
+msgstr ""
+
+#: core/api/class-api.php:1541
+msgid "No WorkSpace is selected, where the item will "
+msgstr ""
+
+#: core/api/class-api.php:1568
+msgid "Slug can't be empty."
+msgstr ""
+
+#: core/api/class-api.php:1596
+msgid "Something went wrong regarding loading your WorkSpace. Try again or contact with Templately Support."
+msgstr ""
+
+#: core/api/class-api.php:1616
+msgid "Something went wrong regarding collecting your usage limit. Try again or contact with Templately Support."
+msgstr ""
+
+#: core/api/class-api.php:1627
+#: core/api/class-api.php:1631
+msgid "Workspace Not Found."
+msgstr ""
+
+#: core/api/class-api.php:1646
+msgid "Something went wrong regarding adding files to your Workspace. Try again or contact with Templately Support."
+msgstr ""
+
+#: core/api/class-rest-api.php:76
+msgid "Unathorized Access: You have to logged in first."
+msgstr ""
+
+#: core/api/class-rest-api.php:79
+msgid "400 Bad Request."
+msgstr ""
+
+#: src/components/body/admin/AdminForm.js:32
+msgid "1000+ Stunning Templates for WordPress"
+msgstr ""
+
+#: src/components/body/admin/AdminForm.js:38
+msgid "From multipurpose themes to niche templates, you’ll always find something that catches your eye."
+msgstr ""
+
+#: src/components/body/admin/AdminForm.js:64
+msgid "Sign In"
+msgstr ""
+
+#: src/components/body/admin/AdminForm.js:71
+msgid "Sign Up"
+msgstr ""
+
+#: src/components/body/admin/GlobalSignIn.js:15
+msgid "Global Sign In"
+msgstr ""
+
+#: src/components/body/admin/GlobalSignIn.js:19
+msgid "All the sitewide users will be logged in with this Templately account"
+msgstr ""
+
+#: src/components/body/admin/LoginForm.js:159
+msgid "Great to have you back!"
+msgstr ""
+
+#: src/components/body/admin/LoginForm.js:223
+msgid "Get API Key"
+msgstr ""
+
+#: src/components/body/admin/LoginForm.js:231
+msgid "Connect"
+msgstr ""
+
+#: src/components/body/admin/LoginForm.js:236
+msgid "New here?"
+msgstr ""
+
+#: src/components/body/admin/LoginForm.js:238
+msgid "Create an account!"
+msgstr ""
+
+#: src/components/body/admin/LoginForm.js:243
+msgid "Forgot Password?"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:36
+msgid "Successfully Logged Out."
+msgstr ""
+
+#: src/components/body/admin/Settings.js:59
+msgid "Hey"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:60
+msgid "Welcome Back!"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:63
+msgid "Account Details"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:74
+msgid "Email"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:84
+msgid "Plan"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:98
+msgid "Joining Date"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:112
+msgid "Expiry Date"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:130
+msgid "Manage Account"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:138
+msgid "Logout"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:147
+msgid "Unlink My Account"
+msgstr ""
+
+#: src/components/body/admin/Settings.js:155
+msgid "Link My Account"
+msgstr ""
+
+#: src/components/body/clouds/LoggedInMessage.js:11
+msgid "You have to logged in, in order to visit this page or view your items from cloud."
+msgstr ""
+
+#: src/components/body/clouds/LoggedInMessage.js:19
+msgid "Login"
+msgstr ""
+
+#: src/components/body/items/Search.js:126
+msgid "You are looking for: "
+msgstr ""
+
+#: src/components/body/TemplatelyBody.js:124
+msgid "click here"
+msgstr ""
+
+#: src/components/body/templates/SaveTemplates.js:56
+#: src/components/body/templates/SaveTemplates.js:88
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:18
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:300
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:305
+#: src/components/header/Nav.js:69
+msgid "My Clouds"
+msgstr ""
+
+#: src/components/body/templates/SaveTemplates.js:62
+#: src/components/body/templates/SaveTemplates.js:93
+#: src/components/body/workspace/ModalForCopyMoved.js:29
+#: src/components/body/workspace/ModalForCopyMoved.js:52
+#: src/components/body/workspace/Sidebar.js:74
+msgid "My WorkSpace"
+msgstr ""
+
+#: src/components/body/templates/SaveTemplates.js:69
+#: src/components/body/templates/SaveTemplates.js:99
+#: src/components/body/workspace/ModalForCopyMoved.js:36
+#: src/components/body/workspace/ModalForCopyMoved.js:58
+msgid "Shared WorkSpace"
+msgstr ""
+
+#: src/components/body/templates/SaveTemplates.js:358
+msgid "Save Your Template And Push to Cloud"
+msgstr ""
+
+#: src/components/body/templates/SaveTemplates.js:388
+msgid "Save & Push"
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:77
+msgid "Successfully Pushed to Cloud."
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:176
+#: src/components/body/templates/TemplateTableRow.js:240
+#: src/components/body/templates/TemplateTableRow.js:274
+msgid "Preview"
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:191
+msgid "Please verify your account for inserting template."
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:202
+#: src/components/body/templates/TemplateTableRow.js:259
+msgid "Push to Cloud"
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:213
+#: src/components/core/PreviewHeader.js:130
+msgid "Insert"
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:288
+msgid "Push To Cloud"
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:293
+msgid "Export"
+msgstr ""
+
+#: src/components/body/templates/TemplateTableRow.js:301
+#: src/components/body/workspace/SingleWorkspace.js:265
+msgid "Delete"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:264
+msgid "No Saved Templates Found"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:288
+msgid "Add Template to WorkSpace"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:293
+msgid "Select Source"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:309
+msgid "My Workspaces"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:313
+msgid "Shared Workspaces"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:324
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:335
+msgid "Select WorkSpace"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:327
+msgid "No WorkSpace Found"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:338
+msgid "No Shared WorkSpace Found"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:346
+msgid "Select Templates"
+msgstr ""
+
+#: src/components/body/workspace/AddFileToWorkspaceModal.js:354
+msgid "Add To WorkSpace"
+msgstr ""
+
+#: src/components/body/workspace/ModalForCopyMoved.js:113
+msgid "Item Name"
+msgstr ""
+
+#: src/components/body/workspace/ModalForCopyMoved.js:121
+msgid "Copy to"
+msgstr ""
+
+#: src/components/body/workspace/ModalForCopyMoved.js:121
+msgid "Move to"
+msgstr ""
+
+#: src/components/body/workspace/ModalForCopyMoved.js:128
+msgid "Done"
+msgstr ""
+
+#: src/components/body/workspace/NoWorkspaceFound.js:20
+msgid "No Workspaces Found."
+msgstr ""
+
+#: src/components/body/workspace/Sidebar.js:67
+#: src/components/header/Nav.js:159
+msgid "My Cloud"
+msgstr ""
+
+#: src/components/body/workspace/Sidebar.js:81
+msgid "Shared with Me"
+msgstr ""
+
+#: src/components/body/workspace/Sidebar.js:87
+msgid "Profile"
+msgstr ""
+
+#: src/components/body/workspace/Sidebar.js:93
+msgid "My Cloud Status"
+msgstr ""
+
+#: src/components/body/workspace/SingleWorkspace.js:257
+msgid "Edit"
+msgstr ""
+
+#: src/components/body/workspace/SingleWorkspace.js:289
+#: src/components/body/workspace/WorkspaceEditModal.js:258
+msgid "Shared with"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceCreateModal.js:117
+msgid "WorkSpace Name"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceCreateModal.js:123
+#: src/components/body/workspace/WorkspaceEditModal.js:269
+msgid "Add People"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceCreateModal.js:138
+#: src/components/body/workspace/WorkspaceEditModal.js:284
+msgid "Type email to add"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceCreateModal.js:146
+#: src/components/body/workspace/WorkspaceEditModal.js:292
+msgid "Add"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceCreateModal.js:155
+msgid "Create WorkSpace"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceEditModal.js:83
+msgid "invited"
+msgstr ""
+
+#: src/components/body/workspace/WorkspaceEditModal.js:301
+msgid "Save"
+msgstr ""
+
+#: src/components/core/Badge.js:13
+msgid "Pro"
+msgstr ""
+
+#: src/components/core/Badge.js:14
+msgid "Starter"
+msgstr ""
+
+#: src/components/core/ImportModal.js:116
+msgid "Template imported successfully! You can now edit or preview the template and push to Templately cloud."
+msgstr ""
+
+#: src/components/core/ImportModal.js:124
+msgid "Edit Template"
+msgstr ""
+
+#: src/components/core/ImportModal.js:130
+msgid "Edit Template with Elementor"
+msgstr ""
+
+#: src/components/core/ImportModal.js:139
+msgid "Preview Template"
+msgstr ""
+
+#: src/components/core/ImportModal.js:150
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: src/components/core/ImportModal.js:173
+msgid "Import to Library"
+msgstr ""
+
+#: src/components/core/ImportModal.js:203
+msgid "Create a Page"
+msgstr ""
+
+#: src/components/core/InstallerWidget.js:20
+msgid "Ignored"
+msgstr ""
+
+#: src/components/core/InstallerWidget.js:288
+msgid "Cancel"
+msgstr ""
+
+#: src/components/core/InstallerWidget.js:294
+msgid "Install & Proceed to Import"
+msgstr ""
+
+#: src/components/core/PackPreviewHeader.js:108
+msgid "All"
+msgstr ""
+
+#: src/components/core/PackPreviewHeader.js:118
+#: src/components/header/Nav.js:42
+#: src/components/header/Nav.js:80
+#: src/components/header/Nav.js:145
+msgid "Blocks"
+msgstr ""
+
+#: src/components/core/PackPreviewHeader.js:136
+#: src/components/header/Nav.js:33
+#: src/components/header/Nav.js:141
+msgid "Pages"
+msgstr ""
+
+#: src/components/core/Pagination.js:70
+msgid "1"
+msgstr ""
+
+#: src/components/core/Pagination.js:76
+#: src/components/core/Pagination.js:94
+msgid "..."
+msgstr ""
+
+#: src/components/core/sidebar/FilterButton.js:11
+msgid "Filter"
+msgstr ""
+
+#: src/components/core/sidebar/FilterButton.js:17
+msgid "Reset"
+msgstr ""
+
+#: src/components/header/Actions.js:83
+msgid "Your Cloud is Successfully Synced with Your Templately Account."
+msgstr ""
+
+#: src/components/header/Logo.js:54
+msgid "Back to Library"
+msgstr ""
+
+#: src/components/header/Nav.js:51
+#: src/components/header/Nav.js:91
+#: src/components/header/Nav.js:148
+msgid "Packs"
+msgstr ""
+
+#: src/components/header/Nav.js:60
+#: src/components/header/Nav.js:153
+msgid "Templates"
+msgstr ""
+
+#: src/components/header/Search.js:47
+msgid "Search..."
+msgstr ""
+
+#: src/editor.js:100
+#: src/editor.js:120
+msgid "Save Page in Templately"
+msgstr ""
+
+#: src/editor.js:148
+msgid "Save Block in Templately"
+msgstr ""

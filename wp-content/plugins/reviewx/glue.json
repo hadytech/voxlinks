@@ -1,0 +1,19 @@
+{
+    "plugin_name": "ReviewX",
+    "plugin_slug": "reviewx",
+    "plugin_text_domain": "reviewx",
+    "plugin_version": "1.0.0",
+    "plugin_description": "ReviewX WordPress Plugin",
+    "plugin_uri": "",
+    "plugin_license": "GPLv2 or later",
+    "author_name": "",
+    "author_email": "",
+    "author_uri": "",
+    "autoload": {
+        "namespace": "ReviewX",
+        "mapping": {
+            "App": "app",
+            "Framework": "framework"
+        }
+    }
+}

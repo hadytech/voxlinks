@@ -1,0 +1,1 @@
+<div class="rx_comment_approve"><?php esc_html_e( 'Approved', 'reviewx' ); ?></div>

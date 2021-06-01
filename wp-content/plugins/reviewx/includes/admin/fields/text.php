@@ -1,0 +1,1 @@
+<input class="<?php echo esc_attr( $class ); ?>" <?php if( isset($field['disabled'])){echo 'disabled';} ?> id="<?php echo esc_attr( $name ); ?>" type="text" name="<?php echo esc_attr( $name ); ?>" value="<?php echo esc_attr( $value ); ?>" <?php echo esc_attr( $attrs ); ?>>

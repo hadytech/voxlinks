@@ -1,0 +1,197 @@
+$grid_50: 50%;
+$magin_right_10: 10px;
+
+@mixin rx_typrograph( $fontSize, $color ) {
+    font-size: $fontSize;
+    color: $color;
+    
+}
+
+.rx-option-insight .rx-control-wrapper {
+    margin: 0 25px;
+}
+
+.rx_insightAvgWrap{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    padding: 45px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+    &__avg{
+        width: calc(#{$grid_50} - 15px);
+        text-align: center;
+
+        &__title{
+            @include rx_typrograph(48px, #404040);
+            margin-bottom: 25px;
+        }
+
+        &__count{
+            @include rx_typrograph(16px, #707070);
+            margin-top: 5px;
+        }
+    }
+
+    &__progress{
+        width: calc(#{$grid_50} - 15px);
+
+        &__summery{
+            width: 100%;
+            display: flex;
+            margin-bottom: 15px;
+
+            &__left{
+                width: 25%;
+                @include rx_typrograph(17px, #75758a);
+
+            }
+            &__center{
+                width: 55%;
+
+                &__progressBar{
+                    height: 14px;
+                    width: 100%;
+                    background-color: #eaeaf1;
+                    margin: 3px 0;
+                    border-radius: 3px;
+
+                     &__fill{
+                         background-color: #004fff;
+                         height: 14px;
+                         border-radius: 3px;
+                     }
+                }
+            }
+            &__right{
+                width: 20%;
+                @include rx_typrograph(17px, #75758a);
+                text-align: right;
+            }
+        }
+    }
+}
+
+.rx_productPieChart{
+    width: 100%;
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+    &__block{
+        width: calc(#{$grid_50} - 0px);
+        background-color: #fff;
+
+        &_margin{
+            margin-right: $magin_right_10;
+        }
+        
+        &__header{
+            background-color: #f4f5f8;
+            
+            &__title{
+                @include rx_typrograph(15px, #373747);
+                text-align: center;
+                padding: 10px 0;
+                margin-top: 0;
+            }
+        }
+
+        &__content{
+            padding: 0 10px;
+
+            & table{
+                margin-bottom: 20px;
+
+                & a{
+                    display: none;
+                }
+            }
+
+            &__chartInfo{
+                margin-bottom: 20px;
+
+                &__title{
+                    @include rx_typrograph(14px, #75758a);
+                    font-weight: 600;
+                    width: 70% !important;
+
+                    & span{
+                        display: inline-block;
+                        height: 12px;
+                        width: 12px;
+                        border-radius: 3px;
+                        margin-right: 8px;
+                    }
+                }
+                &__value{
+                    @include rx_typrograph(14px, #75758a);
+                    font-weight: 600;
+                    text-align: right !important;
+                }
+            }
+        }
+
+        
+    }
+}
+
+.rx_topProductReview{
+    width: 100%;
+    display: flex;
+
+    &__block{
+        width: calc(#{$grid_50} - 0px);
+        background-color: #fff;
+
+        &_margin{
+            margin-right: $magin_right_10;
+        }
+
+        &__bar{
+            display: flex;
+            justify-content: space-between;
+            background-color: #f4f5f8;
+            padding: 0 15px;
+    
+            &__title{
+                @include rx_typrograph(15px, #373747);
+            }
+            &__option{
+                width: 50px;
+                height: 20px;
+                padding: 0 5px !important;
+                margin: 4px 0;
+            }
+        }
+
+        &__content{
+            padding: 0 30px;
+            border-bottom: 1px solid #edeff0;
+
+            &_link{
+                padding-bottom: 13px;
+            }
+
+            &__title{
+                @include rx_typrograph(15px, #373747);
+                margin-bottom: 0;
+            }
+
+            &__subTitle{
+                @include rx_typrograph(13px, #a7a7a7);
+                margin-top: 0;
+                margin-left: 15px;
+            }
+
+            &__link{
+                @include rx_typrograph(13px, #004fff);
+                margin-left: 15px;
+                text-decoration: none;
+                font-weight: 600;
+            }
+        }
+    }
+    
+}

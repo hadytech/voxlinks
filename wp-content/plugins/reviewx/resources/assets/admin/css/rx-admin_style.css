@@ -1,0 +1,219 @@
+.rx-option-insight .rx-control-wrapper {
+  margin: 0 25px;
+}
+
+.rx_insightAvgWrap {
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 45px 0;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.rx_insightAvgWrap__avg {
+  width: calc(50% - 15px);
+  text-align: center;
+}
+
+.rx_insightAvgWrap__avg__title {
+  font-size: 48px;
+  color: #404040;
+  margin-bottom: 25px;
+}
+
+.rx_insightAvgWrap__avg__count {
+  font-size: 16px;
+  color: #707070;
+  margin-top: 5px;
+}
+
+.rx_insightAvgWrap__progress {
+  width: calc(50% - 15px);
+}
+
+.rx_insightAvgWrap__progress__summery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.rx_insightAvgWrap__progress__summery__left {
+  width: 25%;
+  font-size: 17px;
+  color: #75758a;
+}
+
+.rx_insightAvgWrap__progress__summery__center {
+  width: 55%;
+}
+
+.rx_insightAvgWrap__progress__summery__center__progressBar {
+  height: 14px;
+  width: 100%;
+  background-color: #eaeaf1;
+  margin: 3px 0;
+  border-radius: 3px;
+}
+
+.rx_insightAvgWrap__progress__summery__center__progressBar__fill {
+  background-color: #004fff;
+  height: 14px;
+  border-radius: 3px;
+}
+
+.rx_insightAvgWrap__progress__summery__right {
+  width: 20%;
+  font-size: 17px;
+  color: #75758a;
+  text-align: right;
+}
+
+.rx_productPieChart {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.rx_productPieChart__block {
+  width: calc(50% - 0px);
+  background-color: #fff;
+}
+
+.rx_productPieChart__block_margin {
+  margin-right: 10px;
+}
+
+.rx_productPieChart__block__header {
+  background-color: #f4f5f8;
+}
+
+.rx_productPieChart__block__header__title {
+  font-size: 15px;
+  color: #373747;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 0;
+}
+
+.rx_productPieChart__block__content {
+  padding: 0 10px;
+}
+
+.rx_productPieChart__block__content table {
+  margin-bottom: 20px;
+}
+
+.rx_productPieChart__block__content table a {
+  display: none;
+}
+
+.rx_productPieChart__block__content__chartInfo {
+  margin-bottom: 20px;
+}
+
+.rx_productPieChart__block__content__chartInfo__title {
+  font-size: 14px;
+  color: #75758a;
+  font-weight: 600;
+  width: 70% !important;
+}
+
+.rx_productPieChart__block__content__chartInfo__title span {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.rx_productPieChart__block__content__chartInfo__value {
+  font-size: 14px;
+  color: #75758a;
+  font-weight: 600;
+  text-align: right !important;
+}
+
+.rx_topProductReview {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rx_topProductReview__block {
+  width: calc(50% - 0px);
+  background-color: #fff;
+}
+
+.rx_topProductReview__block_margin {
+  margin-right: 10px;
+}
+
+.rx_topProductReview__block__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f4f5f8;
+  padding: 0 15px;
+}
+
+.rx_topProductReview__block__bar__title {
+  font-size: 15px;
+  color: #373747;
+}
+
+.rx_topProductReview__block__bar__option {
+  width: 50px;
+  height: 20px;
+  padding: 0 5px !important;
+  margin: 4px 0;
+}
+
+.rx_topProductReview__block__content {
+  padding: 0 30px;
+  border-bottom: 1px solid #edeff0;
+}
+
+.rx_topProductReview__block__content_link {
+  padding-bottom: 13px;
+}
+
+.rx_topProductReview__block__content__title {
+  font-size: 15px;
+  color: #373747;
+  margin-bottom: 0;
+}
+
+.rx_topProductReview__block__content__subTitle {
+  font-size: 13px;
+  color: #a7a7a7;
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+.rx_topProductReview__block__content__link {
+  font-size: 13px;
+  color: #004fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+/*# sourceMappingURL=rx-admin_style.css.map */
+
+#rx-option-recaptcha_site_key,
+#rx-option-recaptcha_secret_key,
+#rx-option-video_source
+{
+  display: none;
+}

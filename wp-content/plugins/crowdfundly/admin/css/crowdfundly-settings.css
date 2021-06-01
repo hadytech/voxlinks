@@ -1,0 +1,1262 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+.fixed .column-notification_status {
+    width: 10%;
+}
+
+/* NX FLEX */
+.crowdfundly-flex {
+    display: flex;
+}
+
+.crowdfundly-align-items-center {
+    align-items: center;
+}
+
+.crowdfundly-builder-hidden {
+    display: none !important;
+}
+
+.crowdfundly-metatab-menu {
+    background: #fff;
+    padding: 30px;
+}
+
+.crowdfundly-metatab-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.crowdfundly-metatab-menu ul li,
+.crowdfundly-builder-tab-menu ul li {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    padding: 15px 25px 15px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #edeff0;
+}
+
+.crowdfundly-metatab-menu ul li:after,
+.crowdfundly-metatab-menu ul li:before {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    content: '';
+    height: 0;
+    width: 0;
+    border: 25px solid transparent;
+    border-right-width: 0;
+    border-left-width: 20px;
+}
+
+.crowdfundly-metatab-menu ul li:after {
+    z-index: 1;
+    -webkit-transform: translateX(3px);
+    -moz-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    -o-transform: translateX(3px);
+    transform: translateX(3px);
+    border-left-color: #fff;
+    margin: 0;
+}
+
+.crowdfundly-metatab-menu ul li:before {
+    z-index: 2;
+    border-left-color: #edeff0;
+    border-top-width: 25px;
+    border-bottom-width: 25px;
+}
+
+.crowdfundly-metatab-menu ul li:first-child.crowdfundly-has-icon {
+    padding-left: 25px;
+}
+
+.crowdfundly-metatab-menu ul li.crowdfundly-has-icon>.crowdfundly-menu-icon {
+    margin-right: 10px;
+}
+
+.crowdfundly-metatab-menu ul li>span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.crowdfundly-metatab-menu ul li img {
+    display: block;
+}
+
+.crowdfundly-metatab-menu ul li.active,
+.crowdfundly-metatab-menu ul li.crowdfundly-complete {
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+.crowdfundly-metatab-menu ul li.active>.crowdfundly-menu-icon,
+.crowdfundly-metatab-menu ul li.crowdfundly-complete>.crowdfundly-menu-icon {
+    filter: invert(1);
+}
+
+.crowdfundly-metatab-menu ul li.active:before,
+.crowdfundly-metatab-menu ul li.crowdfundly-complete:before {
+    border-left-color: #6c63ff;
+}
+
+/* CONTENT CSS */
+
+.crowdfundly-meta-contents {
+    background: #fff;
+}
+
+.crowdfundly-metatab-inner-wrapper {
+    display: none;
+}
+
+@keyframes nxloadunload {
+    10% {
+        opacity: 0.7;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.crowdfundly-preloader {
+    text-align: center;
+    padding: 40px 50px 50px;
+}
+
+.crowdfundly-builder-content-wrapper .crowdfundly-preloader {
+    padding: 0;
+}
+
+.crowdfundly-preloader img {
+    width: 200px;
+    animation-duration: 1s;
+    animation-name: nxloadunload;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: nxloadunload;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.crowdfundly-metatab-content {
+    display: none;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+
+.crowdfundly-metatab-content.active {
+    display: block;
+}
+
+.crowdfundly-meta-next {
+    float: right;
+}
+
+.crowdfundly-meta-section {
+    margin-bottom: 20px;
+    border: 1px solid #f7f7f7;
+    padding-bottom: 20px;
+}
+
+#crowdfundly_metabox_wrapper .crowdfundly-metatab-content h2.crowdfundly-meta-section-title {
+    display: block;
+    color: #516378;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    background: #f8fafb;
+    padding: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+h2.crowdfundly-meta-section-title .crowdfundly-section-reset {
+    float: right;
+}
+
+.crowdfundly-group-clone,
+.crowdfundly-group-remove {
+    text-decoration: none;
+    color: #333;
+}
+
+.crowdfundly-group-clone>span,
+.crowdfundly-group-remove>span {
+    font-size: 18px;
+}
+
+.crowdfundly-group-clone>span {
+    color: #5F7EFF;
+}
+
+.crowdfundly-group-remove>span {
+    color: #dc4f4b;
+}
+
+.crowdfundly-section-reset>span {
+    color: #dc4f4b;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.crowdfundly-section-reset>span:hover {
+    color: #EF4144;
+}
+
+.crowdfundly-group-field-add {
+    background-color: #5F7EFF;
+    color: #fff;
+    border: none;
+    box-shadow: 0 3px 6px rgba(95, 126, 255, .5);
+    text-shadow: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.crowdfundly-group-field-add:hover {
+    box-shadow: 0 3px 6px rgba(95, 126, 255, .8);
+}
+
+.crowdfundly-group-field-add>span {
+    line-height: 23px;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]::before {
+    position: absolute;
+    bottom: 150%;
+    left: calc(50% - 38px);
+    margin-bottom: 5px;
+    padding: 8px;
+    min-width: 60px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+    z-index: 9999;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.crowdfundly-info-message-wrapper {
+    padding: 0;
+}
+
+.crowdfundly-info-message {
+    font-size: 16px;
+    padding: 15px;
+    border-left: 2px solid #e61811;
+    background-color: #ffdcdc;
+    color: #403E3C;
+}
+
+/*
+Form Input CSS
+*/
+.crowdfundly-meta-section table {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.crowdfundly-meta-section table tr {
+    vertical-align: top;
+}
+
+.crowdfundly-meta-section tr[id^="crowdfundly-meta-has_no"] {
+    display: none;
+}
+
+/* easy fix */
+#crowdfundly-meta-conversion_from {
+    display: none;
+}
+
+.crowdfundly-meta-section table tr th {
+    width: 25%;
+    text-align: left;
+    padding: 15px 15px 15px 0px;
+}
+
+.crowdfundly-meta-section table tr td {
+    width: 75%;
+    text-align: left;
+    padding: 15px;
+}
+
+.crowdfundly-meta-field,
+.crowdfundly-media-url {
+    padding: 10px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7 !important;
+    border-radius: 0px;
+    width: 400px;
+}
+
+.template-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.template-items>* {
+    flex: 1;
+}
+
+.crowdfundly-meta-template .crowdfundly-meta-template-editable {
+    padding: 10px;
+    line-height: 25px;
+    border: 2px solid #ececec;
+    background: #f2f2f2;
+    font-size: 14px;
+}
+
+input[type="text"].crowdfundly-meta-field,
+input[type="text"].crowdfundly-settings-field,
+input[type="number"].crowdfundly-meta-field,
+.crowdfundly-countdown-input>input[type="number"] {
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+input[type="text"].crowdfundly-meta-field:focus,
+input[type="text"].crowdfundly-settings-field:focus,
+input[type="number"].crowdfundly-meta-field:focus,
+.crowdfundly-countdown-input>input[type="number"]:focus {
+    background-color: #fff !important;
+    border-color: rgba(108, 99, 255, .5) !important;
+}
+
+input[type="number"].crowdfundly-meta-field {
+    height: auto;
+}
+
+input.crowdfundly-meta-field:focus,
+select.crowdfundly-meta-field:focus,
+input.crowdfundly-media-url:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #f2f2f2;
+}
+
+select.crowdfundly-meta-field {
+    height: 40px;
+}
+
+textarea.crowdfundly-meta-field {
+    height: 150px;
+}
+
+input.crowdfundly-template-field {
+    margin: 0;
+    border: 0px;
+}
+
+.crowdfundly-opt-alert {
+    position: relative;
+}
+
+.crowdfundly-opt-alert:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 9999;
+}
+
+.adv-btn-right {
+    text-align: right;
+}
+
+label.crowdfundly-adv-checkbox-label {
+    background: #fff;
+    color: #6c63ff;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 0;
+    letter-spacing: 1px;
+    border: 1px solid #6c63ff;
+    transition: all .3s;
+}
+
+label.crowdfundly-adv-checkbox-label:hover {
+    background: #8982ff;
+    color: #fff;
+    border: 1px solid #6c63ff;
+}
+
+.crowdfundly-adv-checkbox-wrap #crowdfundly_meta_advance_edit,
+.crowdfundly-adv-checkbox-wrap>input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.crowdfundly-meta-section table tr.crowdfundly-adv_checkbox td {
+    padding: 15px 0px;
+}
+
+.crowdfundly-adv-checkbox-wrap>input:checked+label.crowdfundly-adv-checkbox-label,
+.crowdfundly-adv-checkbox-wrap #crowdfundly_meta_advance_edit:checked+label.crowdfundly-adv-checkbox-label {
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+/* Group Field */
+
+.crowdfundly-group-row td.crowdfundly-control {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.crowdfundly-group-field-wrapper .crowdfundly-group-field {
+    border: 1px solid #f2f2f2;
+    margin-bottom: 15px;
+}
+
+.crowdfundly-group-field-wrapper .crowdfundly-group-field:last-child {
+    margin-bottom: 0;
+}
+
+.crowdfundly-group-field-wrapper .crowdfundly-group-field>h4 {
+    margin: 0;
+    position: relative;
+    padding: 15px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #f8fafb;
+}
+
+.crowdfundly-group-field-wrapper .crowdfundly-group-field>h4>div {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 15px;
+    top: 0;
+}
+
+.crowdfundly-group-field-wrapper .crowdfundly-group-field>div.crowdfundly-group-inner {
+    display: none;
+    padding: 30px 15px 0;
+    background-color: #FFFFFF;
+}
+
+.crowdfundly-group-field-wrapper .crowdfundly-group-field.open>div.crowdfundly-group-inner {
+    display: block;
+}
+
+/* Media Fiels */
+.crowdfundly-media-field-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.crowdfundly-thumb-container {
+    display: none;
+}
+
+.crowdfundly-thumb-container.crowdfundly-has-thumb {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.crowdfundly-thumb-container.crowdfundly-has-thumb>img {
+    height: 100px;
+}
+
+.crowdfundly-media-content>input {
+    display: block;
+    padding: 10px;
+    width: 250px;
+}
+
+.crowdfundly-media-button {
+    padding: 10px;
+    font-weight: 700;
+    border: 1px solid #f2f2f2;
+    margin-left: 10px;
+}
+
+.crowdfundly-media-button.crowdfundly-media-remove-button {
+    color: red;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+/* Custom select2 styles */
+
+.crowdfundly-control-wrapper .select2-container--default .select2-selection.select2-selection--single {
+    background-color: #fff;
+    border-color: #ABB9D6;
+    height: 40px;
+    border-radius: 0;
+}
+
+.crowdfundly-control-wrapper .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.crowdfundly-control-wrapper .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+
+.crowdfundly-settings-header {
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    -webkit-display: flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 20px 0;    
+}
+
+.crowdfundly-settings-header .crowdfundly-header-full {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.crowdfundly-settings-header .crowdfundly-admin-logo-inline {
+    box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+    padding: 15px 10px 10px 13px;
+    margin-right: 10px;
+}
+
+.crowdfundly-settings-header .crowdfundly-admin-logo-inline>svg {
+    width: 31.5px;
+    height: 32px;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-full img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-full .title {
+    font-size: 22px;
+    color: #444;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 35px;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-right {
+    text-align: right;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-full,
+.crowdfundly-settings-header .crowdfundly-header-right {
+    flex: 1 1 auto;
+}
+
+.crowdfundly-settings-menu ul {
+    background-color: #5777f3;
+}
+
+.crowdfundly-settings-menu ul li {
+    display: inline-block;
+    margin-bottom: 0;
+    background-color: #5777f3;
+}
+
+.crowdfundly-settings-menu ul li a {
+    padding: 15px 20px;
+    background-color: #5777f3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+}
+
+.crowdfundly-settings-menu ul li a:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: hsla(0,0%,100%,.3);
+}
+
+.crowdfundly-settings-menu ul li.active a {
+    background-color: hsla(0,0%,100%,.3);
+}
+
+.crowdfundly-customizer-design-box {
+	text-align: center;
+	padding: 40px 0;
+}
+.crowdfundly-customizer-btn {
+	padding: 15px;
+	background-color: #5777f3;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+}
+.crowdfundly-customizer-btn:hover {
+	background-color: rgba(87, 119, 243, 0.9);
+	color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px;
+}
+
+.crowdfundly-settings-tab {
+    background: #fff;
+    margin-top: 5px;
+    padding: 15px 25px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    border-top: none;
+    position: relative;
+    display: none;
+}
+
+.crowdfundly-settings-tab.active {
+    display: block;
+}
+
+.crowdfundly-settings-section>table {
+    border-spacing: 0px 10px;
+}
+
+.crowdfundly-settings-section table {
+    width: 100%;
+}
+
+.crowdfundly-settings-section input.crowdfundly-settings-field[type="text"] {
+    width: 75%;
+}
+.crowdfundly-settings-section label {
+    font-size: 14px;
+}
+.crowdfundly-settings-section tr th {
+    padding: 0 15px 10px 0;
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.crowdfundly-settings-section tr td {
+    padding-left: 15px;
+}
+
+.crowdfundly-field.type-text .crowdfundly-label label, 
+.crowdfundly-field.type-checkbox .crowdfundly-label label {
+    line-height: 41px;
+    color: #7d8091;
+}
+
+.crowdfundly-field .crowdfundly-control-wrapper p{
+    margin: 5px 0;
+}
+
+.crowdfundly-field .crowdfundly-field-help{
+    padding: 8px 10px;
+    border-radius: 4px;
+    width: 80%;
+    color: #75758A;
+    padding-left: 0px;
+}
+
+.crowdfundly-title h3{
+    margin: .5em 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.crowdfundly-html-description {
+    margin-left: -15px;
+}
+
+.crowdfundly-settings-field,
+input.crowdfundly-settings-field {
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #32373c;
+}
+
+select.crowdfundly-settings-field.select2-hidden-accessible + span {
+    min-width: 150px;
+}
+
+input.crowdfundly-settings-field[type="number"]{
+    height: auto;
+}
+
+input.crowdfundly-settings-field[type="checkbox"] {
+    padding: 10px !important;
+    border: 1px solid #9b9d9d;
+    background-color: #fff;
+    box-shadow: none !important;
+    border-radius: 2px;
+}
+
+.crowdfundly-control input[type="checkbox"]:checked::before {
+    color: #73d16f;
+    margin: -11px 0 0 -11px;
+}
+
+.crowdfundly-metabox-wrapper{
+    padding:15px;
+}
+
+.crowdfundly-left-right-settings {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.crowdfundly-settings-left {
+    max-width: 80em;
+    height: auto;
+    flex: 1 1 70%;
+}
+
+.crowdfundly-settings-right {
+    flex: 1 1 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crowdfundly-sidebar {
+    background-color: #fff;
+    width: 100%;
+    padding: 50px 20px;
+    margin-top: 34px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crowdfundly-sidebar-block {
+    margin: 1em auto;
+}
+
+.crowdfundly-sidebar-block .crowdfundly-admin-sidebar-logo {
+    max-width: 200px;
+    display: block;
+    margin: 25px auto;
+}
+
+.crowdfundly-sidebar-block .crowdfundly-admin-sidebar-logo>img,
+.crowdfundly-sidebar-block .crowdfundly-admin-sidebar-logo>svg {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.crowdfundly-admin-sidebar-cta a {
+    font-size: 1em;
+    color: rgba(35, 40, 45, 0.45);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .065em;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid rgba(35, 40, 45, 0.185);
+    border-radius: 4px;
+    padding: 15px;
+    width: 200px;
+    outline: none;
+    box-shadow: none;
+    transition: all .3s;
+}
+
+.crowdfundly-admin-sidebar-cta a:hover {
+    color: #23282d;
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.715);
+}
+
+@media only screen and (max-width: 767px) {
+    .crowdfundly-left-right-settings {
+        flex-flow: row wrap;
+        flex-direction: column;
+    }
+
+    .crowdfundly-settings-right {
+        padding: 0;
+    }
+
+}
+
+/* ADMIN */
+/**
+* All of the CSS for your public-facing functionality should be
+* included in this file.
+*/
+
+a.crowdfundly-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.crowdfundly-inner {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .1);
+    max-width: 400px;
+}
+
+.crowdfundly-flex-reverse.crowdfundly-inner {
+    flex-direction: row-reverse;
+}
+
+.crowdfundly-has-close-btn.crowdfundly-inner {
+    padding-right: 30px !important;
+}
+
+span.crowdfundly-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 999;
+    cursor: pointer;
+    width: 8px;
+    height: 8px;
+}
+
+span.crowdfundly-close>svg {
+    fill: #000000;
+    position: absolute;
+}
+
+/*
+Notification Image CSS
+*/
+.crowdfundly-image {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crowdfundly-img-right .crowdfundly-image {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.crowdfundly-image img.crowdfundly-img-square {
+    border-radius: 0px !important;
+}
+
+.crowdfundly-image img.crowdfundly-img-circle,
+.crowdfundly-image>img {
+    border-radius: 50% !important;
+}
+
+.crowdfundly-image img.crowdfundly-img-rounded {
+    border-radius: 5px !important;
+}
+
+.crowdfundly-image>img {
+    width: 100%;
+}
+
+/*
+Notification Content CSS
+*/
+.crowdfundly-inner.crowdfundly-img-right .crowdfundly-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.crowdfundly-inner.crowdfundly-img-right .crowdfundly-content .crowdfundly-branding {
+    position: static;
+    margin-left: 0px;
+    padding: 5px 0px 0px
+}
+
+.crowdfundly-content {
+    float: left;
+}
+
+.crowdfundly-content>span {
+    display: block;
+}
+
+.crowdfundly-first-row {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.crowdfundly-second-row {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.crowdfundly-third-row {
+    font-size: 11px;
+    line-height: 1;
+}
+
+/* Datepicker CSS */
+/* Date Picker Default Styles */
+.ui-datepicker {
+    padding: 0;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.075);
+    min-width: 17em;
+    width: auto;
+    z-index: 1000 !important;
+}
+
+body.wp-admin:not(.rtl) .ui-datepicker {
+    margin-left: -1px;
+}
+
+body.wp-admin.rtl .ui-datepicker {
+    margin-right: -1px;
+}
+
+.ui-datepicker * {
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.ui-datepicker table {
+    font-size: 13px;
+    margin: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+.ui-datepicker .ui-widget-header,
+.ui-datepicker .ui-datepicker-header {
+    background-image: none;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-datepicker .ui-datepicker-header .ui-state-hover {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    position: relative;
+    top: 0;
+    height: 34px;
+    width: 34px;
+}
+
+.ui-datepicker .ui-state-hover.ui-datepicker-prev,
+.ui-datepicker .ui-state-hover.ui-datepicker-next {
+    border: none;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-prev-hover {
+    left: 0;
+}
+
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-next-hover {
+    right: 0;
+}
+
+.ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev span {
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    float: left;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker .ui-datepicker-prev:before,
+.ui-datepicker .ui-datepicker-next:before {
+    font: normal 20px/34px 'dashicons';
+    padding-left: 7px;
+    color: #fff;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 34px;
+    height: 34px;
+}
+
+.ui-datepicker .ui-datepicker-prev:before {
+    content: '\f341';
+}
+
+.ui-datepicker .ui-datepicker-next:before {
+    content: '\f345';
+}
+
+.ui-datepicker .ui-datepicker-prev-hover:before,
+.ui-datepicker .ui-datepicker-next-hover:before {
+    opacity: 0.7;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    width: 33%;
+}
+
+.ui-datepicker thead {
+    color: #fff;
+    font-weight: 600;
+}
+
+.ui-datepicker th {
+    padding: 10px;
+}
+
+.ui-datepicker td {
+    padding: 0;
+    border: 1px solid #f4f4f4;
+}
+
+.ui-datepicker td.ui-datepicker-other-month {
+    border: transparent;
+}
+
+.ui-datepicker tr:first-of-type td {
+    border-top: 1px solid #f0f0f0;
+}
+
+.ui-datepicker td.ui-datepicker-week-end {
+    background-color: #f4f4f4;
+    border: 1px solid #f0f0f0;
+}
+
+.ui-datepicker td.ui-datepicker-today {
+    background-color: #f0f0c0;
+}
+
+.ui-datepicker td.ui-datepicker-current-day {
+    background: #bbdd88;
+}
+
+.ui-datepicker td .ui-state-default {
+    background: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    display: block;
+    padding: 5px 10px;
+    font-weight: normal;
+    color: #444;
+}
+
+.ui-datepicker td.ui-state-disabled .ui-state-default {
+    opacity: 0.5;
+}
+
+/* Default Color Scheme */
+.ui-datepicker .ui-widget-header,
+.ui-datepicker .ui-datepicker-header {
+    background: #6c63ff;
+}
+
+.ui-datepicker thead {
+    background: #32373c;
+}
+
+.ui-datepicker td .ui-state-hover {
+    background:#5777f3;
+    color: #fff;
+}
+
+/* Settings Button */
+
+.crowdfundly-settings-button {
+    margin: 30px 15px 0 0;
+}
+.quick-builder-submit-btn, .crowdfundly-meta-next, .crowdfundly-settings-button {
+    background-color:#5777f3;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial; 
+    border-image: initial;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin: 30px 0px;
+    transition: all 0.3s ease 0s;
+}
+.quick-builder-submit-btn:hover, .crowdfundly-meta-next:hover, .crowdfundly-settings-button:hover {
+    background-color: rgba(87, 119, 243, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-left, .crowdfundly-settings-header .crowdfundly-header-right {
+    flex: 1 1 auto;
+}
+
+.crowdfundly-admin-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.crowdfundly-admin-header img {
+    /* width: 15%; */
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.crowdfundly-admin-header h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #7d8091;
+    margin-bottom: 0px;
+}
+
+.crowdfundly-admin-header strong{
+    color: #7d8091;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-right {
+    text-align: right;
+}
+
+.crowdfundly-settings-header .crowdfundly-header-right>span {
+    display: block;
+    padding-right: 25px;
+    color: #7d8091;
+}
+
+.crowdfundly-copy-shortcode {
+	border: none;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.crowdfundly-copy-shortcode i{
+    color: #666;
+}
+
+.crowdfundly-disabled{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.crowdfundly-required-notice{
+    color: #a40505;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12px;
+}

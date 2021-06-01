@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'rvx';
+  src:  url('fonts/rvx.eot?mqi2op');
+  src:  url('fonts/rvx.eot?mqi2op#iefix') format('embedded-opentype'),
+    url('fonts/rvx.ttf?mqi2op') format('truetype'),
+    url('fonts/rvx.woff?mqi2op') format('woff'),
+    url('fonts/rvx.svg?mqi2op#rvx') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] { 
+
+  font-family: 'rvx' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;	
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-org:before {
+  content: "\e901";
+}
+.icon-Single-Camp:before {
+  content: "\e902";
+}
+.icon-Camp:before {
+  content: "\e900";
+}

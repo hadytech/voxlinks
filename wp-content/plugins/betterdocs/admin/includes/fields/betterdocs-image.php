@@ -1,0 +1,1 @@
+<div class="betterdocs-settings-image-field"><img src="<?php echo $field['url']; ?>" alt="" /></div>

@@ -1,0 +1,4106 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ReviewX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 10:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: partials/storefront/review-summery/style-two-free.php:55
+#: partials/storefront/review-summery/style-default.php:56
+#: partials/storefront/review-summery/style-one.php:55
+msgid " reviewer(s)"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid ""
+" We love to know your experiences with the product(s) that you recently "
+"purchased."
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid " you placed the order "
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:138
+msgid " Your review is awaiting for approval"
+msgstr ""
+
+#: partials/storefront/myaccount/order-table.php:91
+#: partials/storefront/myaccount/add-review.php:23
+msgid "#"
+msgstr ""
+
+#: app/Customizer/controls.php:335 app/Customizer/controls.php:345
+#: app/Customizer/controls.php:355 app/Customizer/controls.php:365
+msgid "%"
+msgstr ""
+
+#. 1: Month name, 2: 4-digit year.
+#: app/Extended/WPCore/WordpressListTable.php:619
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#. 1: Comment date, 2: Comment time.
+#: resources/views/admin/pages/edit-review.php:441
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:224
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: partials/storefront/myaccount/order-table.php:108
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/storefront/product-reviews.php:21
+#: partials/storefront/product-reviews.php:44
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/storefront/review-summery/style-two-free.php:100
+#: partials/storefront/review-summery/style-default.php:98
+#: partials/storefront/review-summery/style-one.php:112
+#, php-format
+msgid "%d review(s)"
+msgstr ""
+
+#: partials/storefront/product-reviews.php:38
+#: partials/storefront/product-reviews.php:40
+#: partials/storefront/product-reviews.php:42
+#: partials/admin/quick_setup.php:309 partials/admin/review_email.php:202
+#: partials/admin/review_email.php:411
+#: app/Controllers/Storefront/ReviewxPublic.php:1731
+#: app/Controllers/Storefront/ReviewxPublic.php:1746
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. %s: Number of comments.
+#: app/Extended/WPCore/WordpressListTable.php:681
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Extended/WPCore/WordpressListTable.php:675
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:708
+#, php-format
+msgid "%s comment approved."
+msgid_plural "%s comments approved."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:714
+#, php-format
+msgid "%s comment marked as spam."
+msgid_plural "%s comments marked as spam."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:725
+#, php-format
+msgid "%s comment moved to the Trash."
+msgid_plural "%s comments moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:735
+#, php-format
+msgid "%s comment permanently deleted."
+msgid_plural "%s comments permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:719
+#, php-format
+msgid "%s comment restored from the spam."
+msgid_plural "%s comments restored from the spam."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:730
+#, php-format
+msgid "%s comment restored from the Trash."
+msgid_plural "%s comments restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1424
+#, php-format
+msgid "%s is not a valid format."
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1419
+#, php-format
+msgid "%s is too large!."
+msgstr ""
+
+#. %s: Number of items.
+#. Number of items.
+#: app/Extended/WPCore/WordpressListTable.php:818
+#: app/Extended/WPCore/WordpressListTable.php:1413
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Extended/WPCore/WordpressListTable.php:687
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/storefront/review-summery/style-two-free.php:95
+#: partials/storefront/review-summery/style-default.php:93
+#: partials/storefront/review-summery/style-one.php:102
+#: partials/storefront/shortcode/graph.php:36
+#: partials/storefront/shortcode/graph.php:77
+#: partials/storefront/shortcode/graph.php:126
+#, php-format
+msgid "%s Star"
+msgstr ""
+
+#: resources/views/partials/utilities/ratings-span.php:9
+msgid "(avg)"
+msgstr ""
+
+#: partials/storefront/review-summery/style-two-free.php:80
+#: partials/storefront/review-summery/style-one.php:87
+#: partials/storefront/shortcode/graph.php:63
+#: partials/storefront/shortcode/graph.php:111
+msgid "100"
+msgstr ""
+
+#: partials/storefront/review-summery/style-two-free.php:15
+#: partials/storefront/review-summery/style-default.php:15
+#: partials/storefront/review-summery/style-one.php:14
+#: partials/storefront/shortcode/recommendation.php:8
+msgid "5"
+msgstr ""
+
+#: partials/admin/general-settings.php:163 partials/admin/review_email.php:581
+#: partials/admin/settings.php:208
+#, php-format
+msgid "<a rel=\"nofollow\" href=\"%s\" target=\"_blank\">Manage License</a>"
+msgstr ""
+
+#: partials/admin/general-settings.php:165 partials/admin/review_email.php:583
+#: partials/admin/settings.php:210
+#, php-format
+msgid "<a rel=\"nofollow\" href=\"%s\" target=\"_blank\">Upgrade to Pro</a>"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:221
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:332
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:410
+msgid ""
+"A review reminder email will be sent out to your customers for their "
+"unreviewed order items."
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:568
+#: app/Controllers/Admin/Email/ReminderEmail.php:125
+msgid "Action"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:356
+msgid "Actions"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1454
+#: app/Oxygen/elements/rvx-woo-reviews.php:1466
+#: app/Oxygen/elements/rvx-product-tabs.php:1712
+#: app/Oxygen/elements/rvx-product-tabs.php:1724
+msgid "Active Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:172
+msgid "Active Tab"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:212
+msgid "Active Tab Arrow Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:182
+msgid "Active Tab Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:177
+msgid "Active Tab Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1430
+#: app/Oxygen/elements/rvx-woo-reviews.php:1442
+#: app/Oxygen/elements/rvx-product-tabs.php:1688
+#: app/Oxygen/elements/rvx-product-tabs.php:1700
+msgid "Active Text Color"
+msgstr ""
+
+#: includes/admin/fields/group.php:105
+msgid "Add"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:257
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:901
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:902
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:101
+msgid "Add New Criteria"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:284
+msgid "Additional Info"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:249
+msgid "Admin Reply Icon"
+msgstr ""
+
+#: includes/admin/fields/send_test_email.php:10
+msgid "admin@yourshop.com"
+msgstr ""
+
+#: includes/admin/fields/adv_checkbox.php:16
+msgid "Advance Design"
+msgstr ""
+
+#: app/Customizer/customizer.php:37
+msgid "Advance Designs"
+msgstr ""
+
+#: partials/admin/setting-header.php:7 partials/admin/general-settings.php:19
+#: partials/admin/review_email.php:20 partials/admin/settings.php:19
+msgid "Advanced Multi-criteria Rating & Reviews for WooCommerce"
+msgstr ""
+
+#: includes/admin/class-rx-settings.php:64
+msgid "Advanced Multi-criteria Rating & Reviews for WooCommerce Settings"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Advanced Multi-criteria Rating & Reviews for WooCommerce. Turn your customer "
+"reviews into sales by collecting and leveraging reviews, ratings with "
+"multiple criteria."
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:826
+msgid ""
+"After the order is completed how long 'ReviewX' should wait to send the "
+"review reminder email."
+msgstr ""
+
+#: includes/admin/builder-review-email.php:88
+msgid "All Reminder Emails"
+msgstr ""
+
+#: app/Modules/Loader.php:42 app/Modules/Loader.php:43
+#: app/Modules/Loader.php:69 app/Modules/Loader.php:70
+#: resources/views/admin/pages/manage-all-reviews.php:3
+msgid "All Reviews"
+msgstr ""
+
+#: partials/admin/quick_setup.php:319 partials/admin/review_email.php:212
+#: partials/admin/review_email.php:420
+#: includes/admin/fields/email_reminder.php:7
+msgid "All the Time"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:84
+#: includes/admin/settings-metabox-helper.php:84
+#: includes/admin/cpt-metabox-helper.php:85
+#: includes/admin/rx-settings-page-helper.php:67
+#: includes/admin/builder-helper.php:85
+msgid "Allow Anonymous Review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:85
+#: includes/admin/settings-metabox-helper.php:85
+#: includes/admin/cpt-metabox-helper.php:86
+#: includes/admin/rx-settings-page-helper.php:68
+#: includes/admin/builder-helper.php:86
+msgid "Allow customer to give review anonymously"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:104
+#: includes/admin/settings-metabox-helper.php:106
+#: includes/admin/cpt-metabox-helper.php:105
+#: includes/admin/rx-settings-page-helper.php:78
+#: includes/admin/builder-helper.php:105
+msgid "Allow customer to react on the review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:97
+#: includes/admin/settings-metabox-helper.php:99
+#: includes/admin/cpt-metabox-helper.php:98
+#: includes/admin/rx-settings-page-helper.php:73
+#: includes/admin/builder-helper.php:98
+msgid "Allow customer to share review to the social media"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:856
+msgid ""
+"Allow customers to decide whether they want to receive the review reminder "
+"email or not. If you check this box the customer will have a checkbox into "
+"their checkout page to decide email consent."
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:19
+msgid ""
+"Allow customers to decide whether they want to receive the review reminder "
+"email or not. If you enable this feature then customer will have a checkbox "
+"into their checkout page to decide from email consent"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:67
+#: includes/admin/settings-metabox-helper.php:67
+#: includes/admin/cpt-metabox-helper.php:68
+#: includes/admin/rx-settings-page-helper.php:52
+#: includes/admin/builder-helper.php:68
+msgid "Allow customers to link the video with review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:60
+#: includes/admin/settings-metabox-helper.php:60
+#: includes/admin/cpt-metabox-helper.php:61
+#: includes/admin/rx-settings-page-helper.php:47
+#: includes/admin/builder-helper.php:61
+msgid "Allow customers to recommend the products"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:54
+#: includes/admin/settings-metabox-helper.php:54
+#: includes/admin/cpt-metabox-helper.php:55
+#: includes/admin/rx-settings-page-helper.php:42
+#: includes/admin/builder-helper.php:55
+msgid "Allow customers to upload the image with review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:304
+#: includes/admin/cpt-metabox-helper.php:297
+#: includes/admin/rx-settings-page-helper.php:256
+#: includes/admin/builder-helper.php:333
+msgid "Allow image with review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:90
+#: includes/admin/settings-metabox-helper.php:91
+#: includes/admin/cpt-metabox-helper.php:91
+#: includes/admin/builder-helper.php:91
+msgid "Allow Media Upload Compliance"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:310
+#: includes/admin/cpt-metabox-helper.php:303
+#: includes/admin/rx-settings-page-helper.php:262
+#: includes/admin/builder-helper.php:339
+msgid "Allow recommendation feature"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:91
+#: includes/admin/settings-metabox-helper.php:92
+#: includes/admin/cpt-metabox-helper.php:92
+#: includes/admin/builder-helper.php:92
+msgid "Allow the shop owner to display a  consent checkbox"
+msgstr ""
+
+#: app/Customizer/defaults.php:275
+#: app/Controllers/Storefront/ReviewxPublic.php:1824
+#: app/Controllers/Storefront/ReviewxPublic.php:1852
+#: partials/storefront/myaccount/add-review.php:184
+msgid "Allow shop owner to display consent checkbox."
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:66
+#: includes/admin/settings-metabox-helper.php:66
+#: includes/admin/cpt-metabox-helper.php:67
+#: includes/admin/rx-settings-page-helper.php:51
+#: includes/admin/builder-helper.php:67
+msgid "Allow Video"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:314
+msgid "Alternating Background"
+msgstr ""
+
+#: app/Customizer/controls.php:383
+msgid "Angle"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1654
+#: app/Oxygen/elements/rvx-product-tabs.php:1912
+msgid "Anonymously Text Typography"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:482
+msgid "Apply"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:398
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1162
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1171
+msgid "Approve"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1161
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1170
+msgid "Approve this comment"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:418
+#: resources/views/partials/utilities/approved.php:1
+msgid "Approved"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:613
+#: app/Oxygen/elements/rvx-product-tabs.php:871
+msgid "Attachment Align"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:78
+msgid "Author"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:819
+msgid "Auto Review Reminder"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:816
+msgid "Automatic Reminder Email"
+msgstr ""
+
+#: includes/class-rx-user-avatar.php:74 includes/class-rx-user-avatar.php:175
+msgid "Avatar"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:444
+#: app/Oxygen/elements/rvx-product-tabs.php:702
+msgid "Avatar Border"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:434
+#: app/Oxygen/elements/rvx-woo-reviews.php:439
+#: app/Oxygen/elements/rvx-product-tabs.php:692
+#: app/Oxygen/elements/rvx-product-tabs.php:697
+msgid "Avatar Box Shadow"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:72
+msgid "Average Count Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:92
+msgid "Average Count Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:103
+#: app/Oxygen/elements/rvx-product-tabs.php:361
+msgid "Average Count Typography"
+msgstr ""
+
+#: includes/admin/fields/insight.php:148
+msgid "average rating"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:202
+msgid "Average Text Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:222
+msgid "Average Text Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:146
+#: app/Oxygen/elements/rvx-product-tabs.php:404
+msgid "Average Text Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:309
+msgid "Background"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1406
+#: app/Oxygen/elements/rvx-woo-reviews.php:1418
+#: app/Oxygen/elements/rvx-product-tabs.php:1664
+#: app/Oxygen/elements/rvx-product-tabs.php:1676
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/fields/insight.php:22
+msgid "based on"
+msgstr ""
+
+#: partials/storefront/review-summery/style-two-free.php:22
+#: partials/storefront/review-summery/style-default.php:22
+#: partials/storefront/review-summery/style-one.php:21
+#: partials/storefront/shortcode/recommendation.php:15
+#, php-format
+msgid "Based on %d rating(s)"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:292
+#: partials/storefront/single-review/style-two.php:294
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:281
+msgid ""
+"Before finishing quick setup you can double-check following of your enabled "
+"features."
+msgstr ""
+
+#: includes/class-plugin-tracker.php:719
+msgid ""
+"Before you deactivate the plugin, would you quickly give us your reason for "
+"doing so?"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:225
+#: app/Customizer/styles-controller/review-statistics.php:518
+msgid "Blur"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:319
+#: app/Customizer/styles-controller/review-statistics.php:426
+#: app/Customizer/styles-controller/review-statistics.php:612
+#: app/Oxygen/elements/rvx-product-tabs.php:319
+msgid "Border Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:294
+#: app/Customizer/styles-controller/review-statistics.php:355
+#: app/Customizer/styles-controller/review-statistics.php:587
+msgid "Border Style"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:338
+#: app/Customizer/styles-controller/review-statistics.php:631
+msgid "Border Weight"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:77
+#: includes/admin/settings-metabox-helper.php:78
+#: includes/admin/cpt-metabox-helper.php:78
+#: includes/admin/rx-settings-page-helper.php:61
+#: includes/admin/builder-helper.php:78
+msgid "Both Internal & External"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:166
+#: app/Oxygen/elements/rvx-woo-reviews.php:413
+#: app/Oxygen/elements/rvx-woo-reviews.php:417
+#: app/Oxygen/elements/rvx-product-tabs.php:424
+#: app/Oxygen/elements/rvx-product-tabs.php:530
+#: app/Oxygen/elements/rvx-product-tabs.php:671
+#: app/Oxygen/elements/rvx-product-tabs.php:675
+msgid "Box Shadow"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:455
+msgid "Box Shadow Color"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:472
+msgid "Bulk Actions"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:55
+#: partials/storefront/single-review/style-two.php:53
+#, php-format
+msgid "By %02d reviewer(s)"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:57
+#: partials/storefront/single-review/style-two.php:55
+#, php-format
+msgid "By %d reviewer(s)"
+msgstr ""
+
+#: partials/admin/quick_setup.php:371 partials/admin/review_email.php:264
+#: partials/admin/review_email.php:473
+#: includes/admin/fields/email_reminder.php:53
+msgid "By Category"
+msgstr ""
+
+#: partials/admin/review_email.php:265 partials/admin/review_email.php:474
+msgid "By Product(s)"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:54
+msgid "By product(s)"
+msgstr ""
+
+#: partials/admin/quick_setup.php:372
+msgid "By Product(s):"
+msgstr ""
+
+#: partials/admin/quick_setup.php:373 partials/admin/review_email.php:266
+#: partials/admin/review_email.php:475
+msgid "By Products + By Category"
+msgstr ""
+
+#: includes/rx-functions.php:1256 app/Customizer/defaults.php:265
+#: app/Controllers/Storefront/ReviewxPublic.php:148
+#: partials/storefront/myaccount/add-review.php:200
+#: resources/views/partials/utilities/schedule_button.php:6
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:222
+msgid "Cancel"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:333
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:411
+msgid "Cancel & Next"
+msgstr ""
+
+#: includes/rx-functions.php:1282
+#: app/Controllers/Admin/Email/ReminderEmail.php:143
+msgid "Cancelled"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:297
+msgid "Cell Content"
+msgstr ""
+
+#: app/Customizer/labels/form.php:397
+msgid "Change 'Allow shop owner to display consent checkbox.'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:194
+msgid "Change 'Cancel'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:52
+msgid "Change 'Customer(s) recommended this item'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:134
+msgid "Change 'Edit this reply'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:314
+msgid "Change 'External Link' Label"
+msgstr ""
+
+#: app/Customizer/labels/form.php:214
+msgid "Change 'Helpful?'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:274
+msgid "Change 'Leave feedback about this'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:668
+msgid ""
+"Change 'Once reviewed item can not be re-reviewed without purchase it again.'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:708
+msgid "Change 'Once reviewed item can not be re-reviewed without purchase.'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:688
+msgid ""
+"Change 'Only logged in customers who have purchased this product may leave a "
+"review.'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:642
+msgid "Change 'Please accept the media upload compliance"
+msgstr ""
+
+#: app/Customizer/labels/form.php:437
+msgid "Change 'Please enter a title'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:602
+msgid "Change 'Please enter a valid email address' (Guest Review) "
+msgstr ""
+
+#: app/Customizer/labels/form.php:582
+msgid "Change 'Please enter your name' (Guest Review)"
+msgstr ""
+
+#: app/Customizer/labels/form.php:457
+msgid "Change 'Please leave a message'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:537
+msgid "Change 'Please rate your satisfaction'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:355
+msgid "Change 'Recommendation:'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:154
+msgid "Change 'Reply Review'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:114
+msgid "Change 'Reply to this review'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:94
+msgid "Change 'Reply'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:376
+msgid "Change 'Review anonymously'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:497
+msgid "Change 'Review can't be empty' (My order)"
+msgstr ""
+
+#: app/Customizer/labels/form.php:557
+msgid "Change 'Review submission failed!'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:477
+msgid "Change 'Review title can't be empty' (My order)"
+msgstr ""
+
+#: app/Customizer/labels/form.php:234
+msgid "Change 'Share on'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:72
+msgid "Change 'Sort by'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:417
+msgid "Change 'Submit Review'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:622
+msgid ""
+"Change 'This email has already given review on this product' (Guest Review)"
+msgstr ""
+
+#: app/Customizer/labels/form.php:174
+msgid "Change 'Update'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:294
+msgid "Change 'Upload File' Label"
+msgstr ""
+
+#: app/Customizer/labels/form.php:517
+msgid "Change 'Your review submitted successfully!'"
+msgstr ""
+
+#: app/Customizer/labels/form.php:334
+msgid "Change Example 'Video Link' URL"
+msgstr ""
+
+#: app/Customizer/labels/form.php:32
+msgid "Change Review Section Title"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:868
+msgid ""
+"Check the unsubscribe page link. BTW, you are free to modify the page "
+"content."
+msgstr ""
+
+#: partials/admin/quick_setup.php:23
+msgid "Click here to use ReviewX with custom post types"
+msgstr ""
+
+#: partials/admin/rx-admin-analytics-counter.php:37
+msgid "Click-Through-Rate"
+msgstr ""
+
+#: app/Customizer/controls.php:331
+msgid "Color 1"
+msgstr ""
+
+#: app/Customizer/controls.php:341
+msgid "Color 2"
+msgstr ""
+
+#: app/Customizer/controls.php:351
+msgid "Color 3"
+msgstr ""
+
+#: app/Customizer/controls.php:361
+msgid "Color 4"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:334
+#: includes/admin/cpt-metabox-helper.php:327
+#: includes/admin/rx-settings-page-helper.php:286
+#: includes/admin/builder-helper.php:363
+msgid "Color schema"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:112
+msgid "Comment"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:401
+msgctxt "comment"
+msgid "Mark as Spam"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:407
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1198
+msgctxt "comment"
+msgid "Not Spam"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:80
+msgid "Comment Author"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:430
+msgid "Comment status"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:431
+msgctxt "comment status"
+msgid "Approved"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:432
+msgctxt "comment status"
+msgid "Pending"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:433
+msgctxt "comment status"
+msgid "Spam"
+msgstr ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Email/ReminderEmail.php:353
+#, php-format
+msgctxt "comments"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Email/ReminderEmail.php:385
+#, php-format
+msgctxt "comments"
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Email/ReminderEmail.php:377
+#, php-format
+msgctxt "comments"
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: app/Controllers/Admin/Email/ReminderEmail.php:361
+#, php-format
+msgctxt "comments"
+msgid "Scheduled <span class=\"count\">(%s)</span>"
+msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/rx-functions.php:1281 includes/admin/fields/email_reminder.php:31
+msgid "Completed"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:17
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:855
+msgid "Consent on Checkout Page"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:48
+msgid "Contact Us"
+msgstr ""
+
+#: app/Customizer/customizer.php:60
+msgid "Controls the design settings for the theme."
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:271
+msgid "Create an email who did not review yet"
+msgstr ""
+
+#: partials/admin/review_email.php:327 partials/admin/review_email.php:329
+#: partials/admin/review_email.php:335
+msgid "Create New Schedule"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:14
+#: includes/admin/settings-metabox-helper.php:15
+#: includes/admin/cpt-metabox-helper.php:15
+#: includes/admin/rx-settings-page-helper.php:5
+#: includes/admin/builder-helper.php:15
+msgid "Criteria"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:144
+msgid "Criteria Graph Box Shadow"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:162
+msgid "Criteria Graph Box Shadow Color"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:19
+#: includes/admin/fields/repeat-field.php:39
+#: includes/admin/fields/repeat-field.php:57
+#: includes/admin/fields/repeat-field.php:75
+msgid "Criteria Name"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:29
+#: app/Oxygen/elements/rvx-woo-reviews.php:203
+#: app/Oxygen/elements/rvx-product-tabs.php:461
+msgid "Criteria Name Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:49
+msgid "Criteria Name Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:212
+#: app/Oxygen/elements/rvx-product-tabs.php:470
+msgid "Criteria Name Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1533
+#: app/Oxygen/elements/rvx-product-tabs.php:1791
+msgid "Criteria Text Typography"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:878
+#: app/Extended/WPCore/WordpressListTable.php:882
+msgid "Current Page"
+msgstr ""
+
+#: partials/admin/quick_setup.php:326 partials/admin/review_email.php:219
+#: partials/admin/review_email.php:427
+#: includes/admin/fields/email_reminder.php:14
+msgid "Custom Date"
+msgstr ""
+
+#: partials/admin/quick_setup.php:337 partials/admin/review_email.php:230
+#: partials/admin/review_email.php:439
+#: includes/admin/fields/email_reminder.php:20
+msgid "Custom Date Range:"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:22
+#: includes/admin/cpt-metabox-helper.php:285
+msgid "Custom Post Type"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:118
+msgid "Customer Email"
+msgstr ""
+
+#: app/Customizer/defaults.php:258
+#: partials/storefront/review-summery/style-two-free.php:45
+#: partials/storefront/review-summery/style-default.php:46
+#: partials/storefront/review-summery/style-one.php:45
+#: partials/storefront/shortcode/recommendation.php:45
+msgid "Customer(s) recommended this item"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: includes/admin/builder-quick-setup.php:258
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "customer."
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:302
+#: app/Customizer/styles-controller/review-statistics.php:363
+#: app/Customizer/styles-controller/review-statistics.php:595
+msgid "Dashed"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:563
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:1109
+msgid "Date"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:460
+msgid "Date and time"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:996
+#: app/Oxygen/elements/rvx-woo-reviews.php:1008
+#: app/Oxygen/elements/rvx-product-tabs.php:1254
+#: app/Oxygen/elements/rvx-product-tabs.php:1266
+msgid "Date Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1018
+#: app/Oxygen/elements/rvx-woo-reviews.php:1093
+#: app/Oxygen/elements/rvx-product-tabs.php:1276
+#: app/Oxygen/elements/rvx-product-tabs.php:1351
+msgid "Date Typography"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:825
+msgid "Days to Wait"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:11
+msgid "Days to Wait for Automatic Review Reminder Email"
+msgstr ""
+
+#: partials/admin/rx-admin.php:133
+#: resources/views/admin/pages/edit-review.php:519
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:411
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1218
+msgid "Delete Permanently"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1217
+msgid "Delete this comment permanently"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:289
+#: partials/storefront/myaccount/add-review.php:77
+msgid "Describe your review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:144
+#: includes/admin/settings-metabox-helper.php:164
+#: includes/admin/cpt-metabox-helper.php:155
+#: includes/admin/rx-settings-page-helper.php:125
+#: includes/admin/builder-helper.php:161
+msgid "Design"
+msgstr ""
+
+#: app/Customizer/controls.php:371
+msgid "Direction"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:50
+msgid "Disable Automatic Create Unsubscribe Page"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:129
+#: includes/admin/settings-metabox-helper.php:149
+#: includes/admin/builder-helper.php:145
+msgid "Disable Default Product Schema"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:130
+#: includes/admin/settings-metabox-helper.php:150
+#: includes/admin/builder-helper.php:146
+msgid "Disable default product schema"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:155
+msgid "Disable price from the rich schema"
+msgstr ""
+
+#: includes/admin/rx-settings-page-helper.php:82
+msgid "Disable Review Auto Approval"
+msgstr ""
+
+#: includes/admin/rx-settings-page-helper.php:83
+msgid "Disable review auto approval"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:29
+msgid ""
+"Disable this switch to use the classic star rating system without multi-"
+"criteria."
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:23
+#: includes/admin/settings-metabox-helper.php:23
+#: includes/admin/rx-settings-page-helper.php:14
+#: includes/admin/builder-helper.php:24
+msgid ""
+"Disable this switch to use the default WooCommerce rating system without "
+"multi-criteria."
+msgstr ""
+
+#: partials/admin/rx-admin.php:27 partials/admin/rx-admin.php:80
+#: partials/admin/rx-admin.php:173
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:135
+#: includes/admin/builder-quick-setup.php:316
+#: includes/admin/cpt-metabox-helper.php:146
+#: includes/admin/cpt-metabox-helper.php:309
+#: includes/admin/rx-settings-page-helper.php:116
+#: includes/admin/rx-settings-page-helper.php:268
+#: includes/admin/builder-helper.php:152 includes/admin/builder-helper.php:345
+msgid "Display review per page"
+msgstr ""
+
+#: includes/rx-functions.php:50
+msgid "Docs"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:11
+#: partials/admin/footer-info-block.php:16
+msgid "Documentation"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:303
+#: app/Customizer/styles-controller/review-statistics.php:364
+#: app/Customizer/styles-controller/review-statistics.php:596
+msgid "Dotted"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:301
+#: app/Customizer/styles-controller/review-statistics.php:362
+#: app/Customizer/styles-controller/review-statistics.php:594
+msgid "Double"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:72
+#: app/Customizer/styles-controller/filtering-bar.php:211
+#: app/Oxygen/elements/rvx-woo-reviews.php:320
+#: app/Oxygen/elements/rvx-woo-reviews.php:332
+#: app/Oxygen/elements/rvx-product-tabs.php:578
+#: app/Oxygen/elements/rvx-product-tabs.php:590
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:129
+#: app/Customizer/styles-controller/filtering-bar.php:268
+#: app/Oxygen/elements/rvx-woo-reviews.php:368
+#: app/Oxygen/elements/rvx-woo-reviews.php:380
+#: app/Oxygen/elements/rvx-product-tabs.php:626
+#: app/Oxygen/elements/rvx-product-tabs.php:638
+msgid "Dropdown Bar Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:110
+#: app/Customizer/styles-controller/filtering-bar.php:249
+msgid "Dropdown Selector Icon Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:91
+#: app/Customizer/styles-controller/filtering-bar.php:230
+#: app/Oxygen/elements/rvx-woo-reviews.php:344
+#: app/Oxygen/elements/rvx-woo-reviews.php:356
+#: app/Oxygen/elements/rvx-product-tabs.php:602
+#: app/Oxygen/elements/rvx-product-tabs.php:614
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: partials/admin/rx-admin.php:162
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:134
+#: includes/admin/settings-metabox-helper.php:135
+#: includes/admin/rx-settings-page-helper.php:100
+#: includes/admin/rx-settings-page-helper.php:101
+msgid "Eanble reCAPTCHA"
+msgstr ""
+
+#: partials/admin/rx-admin.php:72 partials/admin/rx-admin.php:161
+#: resources/views/partials/reviews_actions.php:1
+#: resources/views/admin/pages/edit-review.php:456
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1237
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:903
+msgid "Edit"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:54
+msgid "Edit Comment"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:743
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:749
+msgid "Edit comment"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:17
+msgid "Edit Review"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1236
+msgid "Edit this comment"
+msgstr ""
+
+#: app/Customizer/defaults.php:262
+#: app/Controllers/Storefront/ReviewxPublic.php:145
+msgid "Edit this reply"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:241
+#: includes/admin/settings-metabox-helper.php:267
+#: partials/storefront/single-review/style-one.php:309
+#: partials/storefront/single-review/style-one.php:313
+#: partials/storefront/single-review/style-two.php:311
+#: partials/storefront/single-review/style-two.php:315
+#: resources/views/admin/pages/edit-review.php:88
+msgid "Email"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:210
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:321
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:399
+msgid "Email can't be empty"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:14
+msgid "Email Content"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:226
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:337
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:415
+msgid "Email is invalid!"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:34
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:861
+msgid "Email Per Order"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:124
+msgid "Email Scheduled At"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:70
+msgid "Email Settings"
+msgstr ""
+
+#: partials/admin/rx-admin.php:32
+msgid "Empty Trash"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:45
+#: includes/admin/settings-metabox-helper.php:45
+#: includes/admin/cpt-metabox-helper.php:47
+#: includes/admin/builder-helper.php:46
+msgid "Enable Filter(s)"
+msgstr ""
+
+#: includes/admin/rx-settings-page-helper.php:77
+msgid "Enable Helpful Feature"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:103
+#: includes/admin/settings-metabox-helper.php:105
+#: includes/admin/cpt-metabox-helper.php:104
+#: includes/admin/builder-helper.php:104
+msgid "Enable Like"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:22
+#: includes/admin/settings-metabox-helper.php:22
+#: includes/admin/cpt-metabox-helper.php:28
+#: includes/admin/rx-settings-page-helper.php:13
+#: includes/admin/builder-helper.php:23
+msgid "Enable Multi-criteria Based Rating System."
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:123
+#: includes/admin/settings-metabox-helper.php:127
+#: includes/admin/cpt-metabox-helper.php:124
+#: includes/admin/rx-settings-page-helper.php:95
+#: includes/admin/builder-helper.php:124
+msgid "Enable Multiple Review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:43
+#: includes/admin/settings-metabox-helper.php:43
+#: includes/admin/rx-settings-page-helper.php:33
+#: includes/admin/builder-helper.php:44
+msgid "Enable Order Status"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:298
+#: includes/admin/rx-settings-page-helper.php:250
+#: includes/admin/builder-helper.php:327
+msgid "Enable order status"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:130
+#: includes/admin/builder-helper.php:130
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:131
+#: includes/admin/builder-helper.php:131
+msgid "Enable reCAPTCHA with review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:124
+#: includes/admin/settings-metabox-helper.php:128
+#: includes/admin/cpt-metabox-helper.php:125
+#: includes/admin/rx-settings-page-helper.php:96
+#: includes/admin/builder-helper.php:125
+msgid "Enable/disable mulitiple review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:111
+#: includes/admin/settings-metabox-helper.php:114
+#: includes/admin/cpt-metabox-helper.php:112
+#: includes/admin/builder-helper.php:112
+msgid "Enable/disable the review auto-approval"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:117
+#: includes/admin/settings-metabox-helper.php:120
+#: includes/admin/cpt-metabox-helper.php:118
+#: includes/admin/rx-settings-page-helper.php:89
+#: includes/admin/builder-helper.php:118
+msgid "Enable/disable the review title field"
+msgstr ""
+
+#: partials/admin/rx-admin.php:24 partials/admin/rx-admin.php:79
+#: partials/admin/rx-admin.php:172
+msgid "Enabled"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:139
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:207
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:318
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:396
+msgid "Error"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:176
+msgid "Excerpt View"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:76
+#: includes/admin/settings-metabox-helper.php:77
+#: includes/admin/cpt-metabox-helper.php:77
+#: includes/admin/rx-settings-page-helper.php:60
+#: includes/admin/builder-helper.php:77
+msgid "External"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1563
+#: app/Oxygen/elements/rvx-woo-reviews.php:1615
+#: app/Oxygen/elements/rvx-product-tabs.php:1821
+#: app/Oxygen/elements/rvx-product-tabs.php:1873
+msgid "External Example Video Link Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1649
+#: app/Oxygen/elements/rvx-product-tabs.php:1907
+msgid "External Example Video Link Typography"
+msgstr ""
+
+#: app/Customizer/defaults.php:271
+#: resources/views/admin/pages/edit-review.php:359
+msgid "External Link"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:748
+#: app/Oxygen/elements/rvx-woo-reviews.php:760
+#: app/Oxygen/elements/rvx-product-tabs.php:1006
+#: app/Oxygen/elements/rvx-product-tabs.php:1018
+msgid "Facebook Color"
+msgstr ""
+
+#: includes/rx-functions.php:1284
+msgid "Failed"
+msgstr ""
+
+#: includes/admin/fields/preview.php:5
+msgid "Feature"
+msgstr ""
+
+#: partials/admin/review_email.php:543 partials/admin/review_email.php:552
+#: partials/admin/review_email.php:552
+msgid "Filter & Send Reminder"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:148
+#: app/Customizer/styles-controller/filtering-bar.php:287
+#: app/Oxygen/elements/rvx-woo-reviews.php:392
+#: app/Oxygen/elements/rvx-woo-reviews.php:404
+#: app/Oxygen/elements/rvx-product-tabs.php:650
+#: app/Oxygen/elements/rvx-product-tabs.php:662
+msgid "Filter Background Color"
+msgstr ""
+
+#: partials/admin/quick_setup.php:385 partials/admin/review_email.php:278
+#: partials/admin/review_email.php:487
+msgid "Filter By Category:"
+msgstr ""
+
+#: partials/admin/quick_setup.php:418 partials/admin/review_email.php:311
+#: partials/admin/review_email.php:520
+msgid "Filter By Conditions:"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:602
+msgid "Filter by date"
+msgstr ""
+
+#: partials/admin/quick_setup.php:401 partials/admin/review_email.php:294
+#: partials/admin/review_email.php:503
+msgid "Filter By Products:"
+msgstr ""
+
+#: partials/admin/quick_setup.php:367 partials/admin/review_email.php:260
+#: partials/admin/review_email.php:469
+#: includes/admin/fields/email_reminder.php:50
+msgid "Filter By:"
+msgstr ""
+
+#: partials/admin/quick_setup.php:350 partials/admin/review_email.php:243
+#: partials/admin/review_email.php:452
+#: includes/admin/fields/email_reminder.php:38
+#: includes/admin/fields/email_reminder.php:75
+msgid "Filter Products"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:10
+#: app/Oxygen/elements/rvx-woo-reviews.php:286
+#: app/Oxygen/elements/rvx-product-tabs.php:544
+msgid "Filtering Bar"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:275
+msgid "Finalize"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:860
+msgid "First page"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:50
+#: app/Customizer/styles-controller/filtering-bar.php:189
+msgid "Font Size"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:15
+msgid ""
+"Get started by spending some time with the documentation to get familiar "
+"with reviewx. Build awesome websites for you or your clients with ease."
+msgstr ""
+
+#: includes/class-rx-message.php:943
+msgid "Get the missing feature for ReviewX by installing PRO!"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:7
+msgid "Go Back"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:27
+msgid "Go back"
+msgstr ""
+
+#: app/Customizer/controls.php:621
+msgid "Go Pro"
+msgstr ""
+
+#: partials/storefront/myaccount/order-table.php:210
+msgid "Go shop"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1215
+#: app/Controllers/Storefront/ReviewxPublic.php:1272
+msgid "Good"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:218
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:329
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:407
+msgid "Good job!"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:276
+#: app/Oxygen/elements/rvx-product-tabs.php:534
+msgid "Graph Criteria Box Shadow"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:11
+#: app/Oxygen/elements/rvx-woo-reviews.php:181
+#: app/Oxygen/elements/rvx-product-tabs.php:439
+msgid "Graph of Review Criteria"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:149
+#: includes/admin/settings-metabox-helper.php:168
+#: includes/admin/cpt-metabox-helper.php:160
+#: includes/admin/rx-settings-page-helper.php:130
+#: includes/admin/builder-helper.php:166
+#: app/Oxygen/elements/rvx-woo-reviews.php:182
+#: app/Oxygen/elements/rvx-product-tabs.php:334
+#: app/Oxygen/elements/rvx-product-tabs.php:440
+msgid "Graph Style"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:322
+#: includes/admin/cpt-metabox-helper.php:315
+#: includes/admin/rx-settings-page-helper.php:274
+#: includes/admin/builder-helper.php:351
+msgid "Graph Style type"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:279
+msgid "Great Job!"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:404
+msgid "Height"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:642
+#: app/Oxygen/elements/rvx-woo-reviews.php:666
+#: app/Oxygen/elements/rvx-product-tabs.php:900
+#: app/Oxygen/elements/rvx-product-tabs.php:924
+msgid "Helpful Button Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:690
+#: app/Oxygen/elements/rvx-woo-reviews.php:702
+#: app/Oxygen/elements/rvx-product-tabs.php:948
+#: app/Oxygen/elements/rvx-product-tabs.php:960
+msgid "Helpful Count Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:712
+#: app/Oxygen/elements/rvx-product-tabs.php:970
+msgid "Helpful Text Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:654
+#: app/Oxygen/elements/rvx-woo-reviews.php:678
+#: app/Oxygen/elements/rvx-product-tabs.php:912
+#: app/Oxygen/elements/rvx-product-tabs.php:936
+msgid "Helpful Thumbs-up Icon Color"
+msgstr ""
+
+#: app/Customizer/defaults.php:266
+msgid "Helpful?"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:13
+msgid ""
+"Here’s something I bet you would like to have control to decide when is the "
+"best time to send the review reminder email to your customers for their "
+"completed orders."
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:258
+msgid "Hey "
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "Hey ,"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:116
+msgid "Highest Rating Point Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:136
+msgid "Highest Rating Point Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:108
+#: app/Oxygen/elements/rvx-product-tabs.php:366
+msgid "Highest Rating Point Typography"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:142
+msgid "Highlight"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:796
+#: app/Oxygen/elements/rvx-woo-reviews.php:808
+#: app/Oxygen/elements/rvx-product-tabs.php:1054
+#: app/Oxygen/elements/rvx-product-tabs.php:1066
+msgid "Highlight Icon Color"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:288
+msgid "Highlight Review"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:181
+#: app/Customizer/styles-controller/review-statistics.php:474
+msgid "Horizontal"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:255
+#: app/Oxygen/elements/rvx-product-tabs.php:513
+msgid "Horizontal Style Two Border"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:231
+msgid "Hover Tab Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:226
+msgid "Hover Tab Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1478
+#: app/Oxygen/elements/rvx-woo-reviews.php:1490
+#: app/Oxygen/elements/rvx-product-tabs.php:1736
+#: app/Oxygen/elements/rvx-product-tabs.php:1748
+msgid "Hover Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:221
+msgid "Hovered Tab"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://reviewx.io/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.net/"
+msgstr ""
+
+#: includes/class-rx-message.php:907
+msgid "I already did"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:727
+msgid "I couldn't get the plugin to work"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:724
+msgid "I found a better plugin"
+msgstr ""
+
+#: includes/class-rx-message.php:923
+msgid "I need help"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:722
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: app/Controllers/Admin/Email/EmailSettings.php:115
+msgid "I want to subscribe email"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:312
+msgid "If checked, this will show in reviewxs."
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: includes/admin/builder-quick-setup.php:258
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "If you want to unsubscribe this email please go to this "
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:564
+msgid "Image"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:53
+#: includes/admin/settings-metabox-helper.php:53
+#: includes/admin/cpt-metabox-helper.php:54
+#: includes/admin/rx-settings-page-helper.php:41
+#: includes/admin/builder-helper.php:54
+msgid "Image Review"
+msgstr ""
+
+#. %s: Comment link.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1027
+#, php-format
+msgid "In reply to %s."
+msgstr ""
+
+#. %s: Comment link.
+#: resources/views/admin/pages/edit-review.php:493
+#, php-format
+msgid "In reply to: %s"
+msgstr ""
+
+#. %s: Post link.
+#: resources/views/admin/pages/edit-review.php:477
+#, php-format
+msgid "In response to: %s"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:276
+#: app/Customizer/styles-controller/review-statistics.php:569
+msgid "Inset"
+msgstr ""
+
+#: includes/class-rx-message.php:410
+msgid "Install Now!"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:75
+#: includes/admin/settings-metabox-helper.php:76
+#: includes/admin/cpt-metabox-helper.php:76
+#: includes/admin/rx-settings-page-helper.php:59
+#: includes/admin/builder-helper.php:76
+msgid "Internal"
+msgstr ""
+
+#: app/Controllers/Admin/Email/EmailSettings.php:47
+msgid "Internal error to sent email! Please Try Again."
+msgstr ""
+
+#: includes/rx-functions.php:1606
+msgid "Invalid autologin link."
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:27
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:685
+msgid "Invalid comment ID."
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:211
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:322
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:400
+msgid "Invalid email"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:123
+msgid "Is Subscribe"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:728
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:31
+msgid "Item:"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:831
+msgid "Just Deactivate"
+msgstr ""
+
+#: partials/admin/rx-admin.php:190
+msgid "Last Modified"
+msgstr ""
+
+#: partials/admin/quick_setup.php:323 partials/admin/review_email.php:216
+#: partials/admin/review_email.php:424
+#: includes/admin/fields/email_reminder.php:11
+msgid "Last Month"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:913
+msgid "Last page"
+msgstr ""
+
+#: partials/admin/quick_setup.php:321 partials/admin/review_email.php:214
+#: partials/admin/review_email.php:422
+#: includes/admin/fields/email_reminder.php:9
+msgid "Last Week"
+msgstr ""
+
+#: partials/admin/quick_setup.php:325 partials/admin/review_email.php:218
+#: partials/admin/review_email.php:426
+#: includes/admin/fields/email_reminder.php:13
+msgid "Last year"
+msgstr ""
+
+#: partials/admin/quick_setup.php:292 partials/admin/quick_setup.php:455
+msgid "Launch"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:293
+#: partials/storefront/single-review/style-two.php:295
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:64
+msgid "Leave a Review"
+msgstr ""
+
+#: app/Customizer/defaults.php:269
+#: partials/storefront/single-review/style-one.php:292
+#: partials/storefront/single-review/style-two.php:294
+#: partials/storefront/myaccount/add-review.php:52
+msgid "Leave feedback about this"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:175
+msgid "List View"
+msgstr ""
+
+#: includes/rx-functions.php:1333 includes/rx-functions.php:1341
+#: partials/storefront/single-review/style-one.php:82
+#: partials/storefront/single-review/style-two.php:80
+#: partials/storefront/shortcode/templates/style-one.php:70
+#: partials/storefront/shortcode/templates/style-two.php:71
+msgid "Low Rated"
+msgstr ""
+
+#: partials/admin/quick_setup.php:424 partials/admin/review_email.php:317
+#: partials/admin/review_email.php:526
+msgid "Lowest Rated Product"
+msgstr ""
+
+#: partials/admin/quick_setup.php:422 partials/admin/review_email.php:315
+#: partials/admin/review_email.php:524
+msgid "Lowest Reviewed Product"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:65
+msgid "Lowest reviewed product"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:227
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:338
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:416
+msgid "Mail Sent successfully!"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1188
+msgid "Mark this comment as spam"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:120
+msgid "Max Delivery"
+msgstr ""
+
+#: includes/class-rx-message.php:915
+msgid "Maybe Later"
+msgstr ""
+
+#: app/Customizer/customizer.php:49
+msgid "Modify Labels"
+msgstr ""
+
+#: includes/rx-functions.php:1210
+msgid "Month"
+msgstr ""
+
+#: partials/admin/quick_setup.php:421 partials/admin/review_email.php:314
+#: partials/admin/review_email.php:523
+msgid "Most Reviewed Product"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:64
+msgid "Most reviewed product"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1225
+msgid "Move this comment to the Trash"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:519
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:413
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:292
+#: includes/admin/cpt-metabox-helper.php:291
+#: includes/admin/rx-settings-page-helper.php:244
+#: includes/admin/builder-helper.php:321
+msgid "Multi Criteria"
+msgstr ""
+
+#: resources/views/all_reviews.php:3
+msgid "My List Table Test"
+msgstr ""
+
+#: resources/views/partials/utilities/title.php:5
+#: resources/views/partials/utilities/ratings-span.php:35
+#: resources/views/partials/utilities/store-owner-rating.php:1
+msgid "N/A"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:302
+#: partials/storefront/single-review/style-one.php:306
+#: partials/storefront/single-review/style-two.php:304
+#: partials/storefront/single-review/style-two.php:308
+#: resources/views/admin/pages/edit-review.php:84
+msgid "Name"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:209
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:320
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:398
+msgid "Name can't be empty"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:43
+msgid "Need Help?"
+msgstr ""
+
+#: includes/class-rx-message.php:928
+msgid "Never show again"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:904
+msgid "New"
+msgstr ""
+
+#: partials/admin/rx-cpt-metabox-display.php:164
+#: partials/storefront/myaccount/order-table.php:201
+msgid "Next"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:902
+msgid "Next page"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:717
+msgid "No approved comments"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:695
+#: app/Extended/WPCore/WordpressListTable.php:717
+#: app/Extended/WPCore/WordpressListTable.php:740
+msgid "No comments"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:341
+msgid "No items found."
+msgstr ""
+
+#: partials/storefront/myaccount/order-table.php:210
+msgid "No order has been made yet."
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:740
+msgid "No pending comments"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:951
+msgid "No reviews awaiting moderation."
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:953
+msgid "No reviews found in Trash."
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:955
+msgid "No reviews found."
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:907
+msgid "No reviewx x is found"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:908
+msgid "No reviewx x is found in Trash"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:625
+msgid "No Thanks."
+msgstr ""
+
+#: includes/admin/fields/send_test_email.php:16
+msgid "Note:"
+msgstr ""
+
+#: app/Modules/Loader.php:164 app/Modules/Loader.php:188
+msgid "Number of items per page:"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:954
+msgid "Number of ReviewX Per Page"
+msgstr ""
+
+#: includes/rx-functions.php:1255
+msgid "OK"
+msgstr ""
+
+#: includes/class-rx-message.php:902
+msgid "Ok, you deserve it!"
+msgstr ""
+
+#: includes/rx-functions.php:1280
+msgid "On hold"
+msgstr ""
+
+#: app/Modules/Gatekeeper.php:28 app/Modules/Gatekeeper.php:39
+#: app/Customizer/defaults.php:287
+msgid "Once reviewed item can not be re-reviewed without purchase it again."
+msgstr ""
+
+#: app/Modules/Gatekeeper.php:63 app/Customizer/defaults.php:289
+msgid "Once reviewed item can not be re-reviewed without purchase."
+msgstr ""
+
+#: app/Modules/Gatekeeper.php:56 app/Modules/Gatekeeper.php:84
+#: app/Customizer/defaults.php:288
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:562
+msgid "Order"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:117
+msgid "Order ID"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:21
+msgid "Order No:"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:119
+msgid "Order Status"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:27
+msgid "Order Status:"
+msgstr ""
+
+#: partials/admin/quick_setup.php:316 partials/admin/review_email.php:209
+#: partials/admin/review_email.php:417
+#: includes/admin/fields/email_reminder.php:4
+msgid "Orders Date Range:"
+msgstr ""
+
+#: app/Controllers/Admin/Email/Editor.php:225
+msgid "Orders Page"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:171
+#: app/Oxygen/elements/rvx-product-tabs.php:429
+msgid "Original Thumbs Shadow"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:730
+msgid "Other"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:50
+#: includes/admin/settings-metabox-helper.php:50
+#: includes/admin/rx-settings-page-helper.php:38
+#: includes/admin/builder-helper.php:51
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:851
+msgid "Other Settings"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:277
+#: app/Customizer/styles-controller/review-statistics.php:570
+msgid "Outline"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1203
+#: app/Controllers/Storefront/ReviewxPublic.php:1260
+msgid "Outstanding"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:296
+#: includes/admin/cpt-metabox-helper.php:270
+#: includes/admin/rx-settings-page-helper.php:229
+#: includes/admin/builder-helper.php:306
+msgid "Overview"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:302
+msgid "Padding"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1372
+#: app/Oxygen/elements/rvx-product-tabs.php:1630
+msgid "Pagination"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:134
+#: includes/admin/settings-metabox-helper.php:154
+#: includes/admin/cpt-metabox-helper.php:145
+#: includes/admin/rx-settings-page-helper.php:115
+#: includes/admin/builder-helper.php:151
+msgid "Pagination for review"
+msgstr ""
+
+#. 1: Current page, 2: Total pages.
+#: app/Extended/WPCore/WordpressListTable.php:891
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:36
+msgid "pc(s)"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:421
+msgid "Pending"
+msgstr ""
+
+#: includes/rx-functions.php:1278
+msgid "Pending payment"
+msgstr ""
+
+#: includes/rx-functions.php:1329 includes/rx-functions.php:1338
+#: partials/storefront/single-review/style-one.php:73
+#: partials/storefront/single-review/style-two.php:71
+#: partials/storefront/shortcode/templates/style-one.php:61
+#: partials/storefront/shortcode/templates/style-two.php:62
+msgid "Photo Review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:173
+#: includes/admin/settings-metabox-helper.php:184
+#: includes/admin/cpt-metabox-helper.php:184
+#: includes/admin/rx-settings-page-helper.php:153
+#: includes/admin/builder-helper.php:190
+msgid "Photo Review Style"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:153
+msgid "Please accept the media upload compliance"
+msgstr ""
+
+#: includes/rx-functions.php:15
+msgid "Please click on this link and install WooCommerce"
+msgstr ""
+
+#: app/Customizer/defaults.php:277
+#: app/Controllers/Storefront/ReviewxPublic.php:150
+msgid "Please enter a title"
+msgstr ""
+
+#: app/Customizer/defaults.php:285
+#: app/Controllers/Storefront/ReviewxPublic.php:151
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: app/Customizer/defaults.php:284
+#: app/Controllers/Storefront/ReviewxPublic.php:152
+msgid "Please enter your name"
+msgstr ""
+
+#: app/Customizer/defaults.php:278
+#: app/Controllers/Storefront/ReviewxPublic.php:149
+msgid "Please leave a message"
+msgstr ""
+
+#: app/Customizer/defaults.php:282
+#: app/Controllers/Storefront/ReviewxPublic.php:135
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:203
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:315
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:393
+msgid "Please rate your satisfaction"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:731
+msgid "Please share the reason"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:725
+msgid "Please share which plugin"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1221
+#: app/Controllers/Storefront/ReviewxPublic.php:1278
+msgid "Poor"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:270
+#: app/Customizer/styles-controller/review-statistics.php:563
+msgid "Position"
+msgstr ""
+
+#: includes/admin/fields/email_presets.php:1
+msgid "Preset Placeholders:"
+msgstr ""
+
+#: partials/admin/quick_setup.php:273 partials/admin/quick_setup.php:291
+#: partials/admin/quick_setup.php:437 partials/admin/quick_setup.php:454
+#: partials/admin/rx-cpt-metabox-display.php:163
+#: partials/admin/rx-cpt-metabox-display.php:167
+#: partials/storefront/myaccount/order-table.php:197
+msgid "Previous"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:871
+msgid "Previous page"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:57
+#: app/Controllers/Storefront/ReviewxPublic.php:566
+msgid "Price"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:39
+msgid "Price:"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:6
+msgid "PRO"
+msgstr ""
+
+#: partials/admin/quick_setup.php:334 partials/admin/quick_setup.php:347
+#: partials/admin/quick_setup.php:364 partials/admin/quick_setup.php:382
+#: partials/admin/quick_setup.php:398 partials/admin/quick_setup.php:415
+#: partials/admin/email-setting-field-display.php:65
+#: partials/admin/email-setting-field-display.php:124
+#: partials/admin/email-setting-field-display.php:176
+#: partials/admin/email-setting-field-display.php:227
+#: partials/admin/email-setting-field-display.php:278
+#: partials/admin/email-setting-field-display.php:329
+#: partials/admin/email-setting-field-display.php:380
+#: partials/admin/email-setting-field-display.php:431
+#: partials/admin/email-setting-field-display.php:457
+#: partials/admin/review_email.php:227 partials/admin/review_email.php:240
+#: partials/admin/review_email.php:257 partials/admin/review_email.php:275
+#: partials/admin/review_email.php:291 partials/admin/review_email.php:308
+#: partials/admin/review_email.php:338 partials/admin/review_email.php:435
+#: partials/admin/review_email.php:449 partials/admin/review_email.php:466
+#: partials/admin/review_email.php:484 partials/admin/review_email.php:500
+#: partials/admin/review_email.php:517 partials/admin/field-display.php:87
+#: includes/admin/fields/media.php:51
+#: includes/admin/fields/send_email_theme.php:36
+#: includes/admin/fields/theme.php:34
+#: resources/views/admin/pages/edit-review.php:140
+#: resources/views/admin/pages/edit-review.php:225
+#: resources/views/admin/pages/edit-review.php:290
+#: resources/views/admin/pages/edit-review.php:312
+msgid "Pro"
+msgstr ""
+
+#: includes/rx-functions.php:1279 includes/admin/fields/email_reminder.php:32
+msgid "Processing"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:565
+msgid "Product"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-review-list.class.php:112
+#: app/Oxygen/elements/rvx-summary.class.php:111
+#: app/Oxygen/elements/rvx-stats.class.php:146
+#: app/Oxygen/elements/rvx-criteria-graph.class.php:112
+msgid "Product Id"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:203
+#: includes/admin/settings-metabox-helper.php:213
+#: includes/admin/cpt-metabox-helper.php:214
+#: includes/admin/rx-settings-page-helper.php:183
+#: includes/admin/builder-helper.php:220
+msgid "Product Rating Type"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:328
+#: includes/admin/cpt-metabox-helper.php:321
+#: includes/admin/rx-settings-page-helper.php:280
+#: includes/admin/builder-helper.php:357
+msgid "Product rating type"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:19
+#: includes/admin/settings-metabox-helper.php:19
+#: includes/admin/cpt-metabox-helper.php:19
+#: includes/admin/rx-settings-page-helper.php:10
+#: includes/admin/builder-helper.php:20
+msgid "Product Review Criteria"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:352
+msgid "Product/Post"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:66
+msgid "Products with highest price"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:67
+msgid "Products with lowest price"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:68
+msgid "Products with max. quantity"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:69
+msgid "Products with min. quantity"
+msgstr ""
+
+#: includes/class-rx-user-avatar-shortcode.php:90
+#: includes/class-rx-user-avatar.php:27
+msgid "Profile Image"
+msgstr ""
+
+#: includes/class-rx-user-avatar-shortcode.php:119
+msgid "Profile image updated successfully"
+msgstr ""
+
+#: includes/class-rx-user-avatar-shortcode.php:54
+msgid "Profile updated."
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:71
+#: app/Oxygen/elements/rvx-woo-reviews.php:219
+#: app/Oxygen/elements/rvx-product-tabs.php:477
+msgid "Progress-bar Background Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:133
+msgid "Progress-bar Border Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:90
+#: app/Oxygen/elements/rvx-woo-reviews.php:233
+#: app/Oxygen/elements/rvx-product-tabs.php:491
+msgid "Progress-bar Text Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:110
+msgid "Progress-bar Text Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:246
+#: app/Oxygen/elements/rvx-product-tabs.php:504
+msgid "Progress-bar Text Typography"
+msgstr ""
+
+#: partials/admin/rx-cpt-metabox-display.php:168
+msgid "Publish"
+msgstr ""
+
+#. Publish box date format, see https://www.php.net/date
+#: resources/views/admin/pages/edit-review.php:443
+msgctxt "publish box date format"
+msgid "M j, Y"
+msgstr ""
+
+#. Publish box time format, see https://www.php.net/date
+#: resources/views/admin/pages/edit-review.php:445
+msgctxt "publish box time format"
+msgid "H:i"
+msgstr ""
+
+#: partials/admin/rx-admin.php:187
+msgid "Published"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:39
+msgid "Quality"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:35
+msgid "Quantity:"
+msgstr ""
+
+#: partials/admin/quick_setup.php:20
+msgid "Quick Setup For WooCommerce"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:261
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:353
+msgid "Rating"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:223
+msgid "Rating Criteria"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1540
+#: app/Oxygen/elements/rvx-woo-reviews.php:1593
+#: app/Oxygen/elements/rvx-product-tabs.php:1798
+#: app/Oxygen/elements/rvx-product-tabs.php:1851
+msgid "Rating Icon Fill Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1548
+#: app/Oxygen/elements/rvx-woo-reviews.php:1601
+#: app/Oxygen/elements/rvx-product-tabs.php:1806
+#: app/Oxygen/elements/rvx-product-tabs.php:1859
+msgid "Rating Icon Stroke Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1506
+#: app/Oxygen/elements/rvx-product-tabs.php:1764
+msgid "Rating Style"
+msgstr ""
+
+#: includes/admin/fields/insight.php:22
+msgid "ratings"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:339
+#: includes/admin/rx-settings-page-helper.php:298
+#: includes/admin/builder-helper.php:375
+msgid "reCAPTCHA"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:144
+#: includes/admin/cpt-metabox-helper.php:140
+#: includes/admin/rx-settings-page-helper.php:110
+#: includes/admin/builder-helper.php:140
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:139
+#: includes/admin/cpt-metabox-helper.php:135
+#: includes/admin/rx-settings-page-helper.php:105
+#: includes/admin/builder-helper.php:135
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: includes/rx-functions.php:1328 includes/rx-functions.php:1337
+#: partials/storefront/single-review/style-one.php:70
+#: partials/storefront/single-review/style-two.php:68
+#: partials/storefront/shortcode/templates/style-one.php:58
+#: partials/storefront/shortcode/templates/style-two.php:59
+msgid "Recent Review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:59
+#: includes/admin/settings-metabox-helper.php:59
+#: includes/admin/cpt-metabox-helper.php:60
+#: includes/admin/rx-settings-page-helper.php:46
+#: includes/admin/builder-helper.php:60
+#: resources/views/admin/pages/edit-review.php:138
+msgid "Recommendation"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:257
+msgid "Recommendation Count Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:277
+msgid "Recommendation Count Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:151
+#: app/Oxygen/elements/rvx-product-tabs.php:409
+msgid "Recommendation Count Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1556
+#: app/Oxygen/elements/rvx-woo-reviews.php:1609
+#: app/Oxygen/elements/rvx-product-tabs.php:1814
+#: app/Oxygen/elements/rvx-product-tabs.php:1867
+msgid "Recommendation Icon Active Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:299
+msgid "Recommendation Text Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:319
+msgid "Recommendation Text Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:156
+#: app/Oxygen/elements/rvx-woo-reviews.php:1644
+#: app/Oxygen/elements/rvx-product-tabs.php:414
+#: app/Oxygen/elements/rvx-product-tabs.php:1902
+msgid "Recommendation Text Typography"
+msgstr ""
+
+#: app/Customizer/defaults.php:273
+#: app/Controllers/Storefront/ReviewxPublic.php:312
+#: partials/storefront/myaccount/add-review.php:97
+msgid "Recommendation:"
+msgstr ""
+
+#: partials/storefront/review-summery/style-two-free.php:47
+#: partials/storefront/review-summery/style-default.php:48
+#: partials/storefront/review-summery/style-one.php:47
+msgid "Recommended by "
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:257
+#: includes/admin/cpt-metabox-helper.php:259
+#: includes/admin/builder-helper.php:265
+msgid "Recommended Icon"
+msgstr ""
+
+#: includes/rx-functions.php:1283
+msgid "Refunded"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: includes/admin/builder-quick-setup.php:258
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "Regards,"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:84
+msgid "Reminder Emails"
+msgstr ""
+
+#: includes/admin/fields/email_subject.php:1
+msgid "Reminder Subject"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:27
+#: includes/admin/fields/repeat-field.php:47
+#: includes/admin/fields/repeat-field.php:65
+#: includes/admin/fields/repeat-field.php:83
+#: app/Controllers/Storefront/ReviewxPublic.php:143
+msgid "Remove"
+msgstr ""
+
+#: includes/class-rx-user-avatar-shortcode.php:98
+#: includes/class-rx-user-avatar.php:35
+msgid "Remove Image"
+msgstr ""
+
+#: app/Customizer/defaults.php:260
+msgid "Reply"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:943
+#: app/Oxygen/elements/rvx-woo-reviews.php:955
+#: app/Oxygen/elements/rvx-product-tabs.php:1201
+#: app/Oxygen/elements/rvx-product-tabs.php:1213
+msgid "Reply Back Icon Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:546
+#: app/Oxygen/elements/rvx-woo-reviews.php:1148
+#: app/Oxygen/elements/rvx-woo-reviews.php:1160
+#: app/Oxygen/elements/rvx-product-tabs.php:804
+#: app/Oxygen/elements/rvx-product-tabs.php:1406
+#: app/Oxygen/elements/rvx-product-tabs.php:1418
+msgid "Reply Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1172
+#: app/Oxygen/elements/rvx-woo-reviews.php:1184
+#: app/Oxygen/elements/rvx-product-tabs.php:1430
+#: app/Oxygen/elements/rvx-product-tabs.php:1442
+msgid "Reply Border Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1100
+#: app/Oxygen/elements/rvx-woo-reviews.php:1112
+#: app/Oxygen/elements/rvx-product-tabs.php:1358
+#: app/Oxygen/elements/rvx-product-tabs.php:1370
+msgid "Reply Button Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1124
+#: app/Oxygen/elements/rvx-woo-reviews.php:1136
+#: app/Oxygen/elements/rvx-product-tabs.php:1382
+#: app/Oxygen/elements/rvx-product-tabs.php:1394
+msgid "Reply Button Border Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1071
+#: app/Oxygen/elements/rvx-woo-reviews.php:1083
+#: app/Oxygen/elements/rvx-product-tabs.php:1329
+#: app/Oxygen/elements/rvx-product-tabs.php:1341
+msgid "Reply Button Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1313
+#: app/Oxygen/elements/rvx-woo-reviews.php:1325
+#: app/Oxygen/elements/rvx-product-tabs.php:1571
+#: app/Oxygen/elements/rvx-product-tabs.php:1583
+msgid "Reply Cancel Button BG Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1337
+#: app/Oxygen/elements/rvx-woo-reviews.php:1349
+#: app/Oxygen/elements/rvx-product-tabs.php:1595
+#: app/Oxygen/elements/rvx-product-tabs.php:1607
+msgid "Reply Cancel Button Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1359
+#: app/Oxygen/elements/rvx-woo-reviews.php:1399
+#: app/Oxygen/elements/rvx-product-tabs.php:1617
+#: app/Oxygen/elements/rvx-product-tabs.php:1657
+msgid "Reply Cancel Button Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1060
+#: app/Oxygen/elements/rvx-product-tabs.php:1318
+msgid "Reply Delete Icon Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1049
+#: app/Oxygen/elements/rvx-product-tabs.php:1307
+msgid "Reply Edit Icon Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:832
+#: app/Oxygen/elements/rvx-product-tabs.php:1090
+msgid "Reply Highlight Background Color"
+msgstr ""
+
+#: resources/views/partials/utilities/store-owner-title.php:27
+msgid "Reply of review "
+msgstr ""
+
+#: app/Customizer/defaults.php:263
+#: app/Controllers/Storefront/ReviewxPublic.php:146
+msgid "Reply Review"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1253
+#: app/Oxygen/elements/rvx-woo-reviews.php:1265
+#: app/Oxygen/elements/rvx-product-tabs.php:1511
+#: app/Oxygen/elements/rvx-product-tabs.php:1523
+msgid "Reply Submit Button BG Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1278
+#: app/Oxygen/elements/rvx-woo-reviews.php:1290
+#: app/Oxygen/elements/rvx-product-tabs.php:1536
+#: app/Oxygen/elements/rvx-product-tabs.php:1548
+msgid "Reply Submit Button Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1301
+#: app/Oxygen/elements/rvx-product-tabs.php:1559
+msgid "Reply Submit Button Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1225
+#: app/Oxygen/elements/rvx-woo-reviews.php:1237
+#: app/Oxygen/elements/rvx-product-tabs.php:1483
+#: app/Oxygen/elements/rvx-product-tabs.php:1495
+msgid "Reply Text Area Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1196
+#: app/Oxygen/elements/rvx-woo-reviews.php:1208
+#: app/Oxygen/elements/rvx-product-tabs.php:1454
+#: app/Oxygen/elements/rvx-product-tabs.php:1466
+msgid "Reply Title Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1218
+#: app/Oxygen/elements/rvx-product-tabs.php:1476
+msgid "Reply Title Typography"
+msgstr ""
+
+#: app/Customizer/defaults.php:261
+#: app/Controllers/Storefront/ReviewxPublic.php:144
+msgid "Reply to this review"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:32
+msgid "Report a bug"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:27
+msgid "Report Bug or Ask New Feature"
+msgstr ""
+
+#: app/Customizer/controls.php:46 app/Customizer/controls.php:433
+#: app/Customizer/controls.php:525 app/Customizer/controls.php:563
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:420
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/fields/reset_email_template_button.php:1
+msgid "Reset Email Template"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:418
+msgid "Reset Template"
+msgstr ""
+
+#: partials/admin/rx-admin.php:164
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:405
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1208
+msgid "Restore"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1197
+msgid "Restore this comment from the spam"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1207
+msgid "Restore this comment from the Trash"
+msgstr ""
+
+#: app/Customizer/defaults.php:274
+msgid "Review anonymously"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:310
+msgid "Review Attachments"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:110
+#: includes/admin/settings-metabox-helper.php:113
+#: includes/admin/cpt-metabox-helper.php:111
+#: includes/admin/builder-helper.php:111
+msgid "Review Auto Approval"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:534
+#: app/Oxygen/elements/rvx-product-tabs.php:792
+msgid "Review Background Color"
+msgstr ""
+
+#: app/Customizer/defaults.php:280
+#: app/Controllers/Storefront/ReviewxPublic.php:134
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:202
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:314
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:392
+msgid "Review can't be empty"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:350
+msgid "Review Comments"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:846
+#: app/Oxygen/elements/rvx-product-tabs.php:1104
+msgid "Review Container Background Color"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:274
+msgid "Review criteria not applicable"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:558
+#: app/Oxygen/elements/rvx-woo-reviews.php:570
+#: app/Oxygen/elements/rvx-product-tabs.php:816
+#: app/Oxygen/elements/rvx-product-tabs.php:828
+msgid "Review Date Icon Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:580
+#: app/Oxygen/elements/rvx-product-tabs.php:838
+msgid "Review Date Typography"
+msgstr ""
+
+#: app/Customizer/labels/form.php:257
+#: app/Oxygen/elements/rvx-woo-reviews.php:1505
+#: app/Oxygen/elements/rvx-product-tabs.php:1763
+msgid "Review Form"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:820
+#: app/Oxygen/elements/rvx-product-tabs.php:1078
+msgid "Review Highlight Background Color"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:348
+msgid "Review ID"
+msgstr ""
+
+#: app/Customizer/labels/form.php:15
+#: app/Oxygen/elements/rvx-woo-reviews.php:427
+#: app/Oxygen/elements/rvx-product-tabs.php:685
+msgid "Review Item"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:28
+msgid "Review on criteria"
+msgstr ""
+
+#: partials/storefront/single-review/filter/style-one.php:125
+#: partials/storefront/single-review/filter/style-two.php:122
+#: partials/storefront/shortcode/templates/style-one.php:193
+#: partials/storefront/shortcode/templates/style-two.php:191
+msgid "Review on:"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:239
+msgid "Review Recommendation Count"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:52
+#: app/Oxygen/elements/rvx-product-tabs.php:51
+msgid "Review Section Title"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:29
+#: app/Oxygen/elements/rvx-woo-reviews.php:58
+#: app/Oxygen/elements/rvx-product-tabs.php:57
+msgid "Review Section Title Color"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:49
+msgid "Review Section Title Font Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:65
+#: app/Oxygen/elements/rvx-product-tabs.php:64
+msgid "Review Section Titles Font Size"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:96
+#: includes/admin/settings-metabox-helper.php:98
+#: includes/admin/cpt-metabox-helper.php:97
+#: includes/admin/rx-settings-page-helper.php:72
+#: includes/admin/builder-helper.php:97
+msgid "Review Share"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:11
+#: app/Oxygen/elements/rvx-woo-reviews.php:100
+#: app/Oxygen/elements/rvx-product-tabs.php:358
+msgid "Review Statistics"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:437
+msgid "Review Statistics Box Shadow"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:336
+msgid "Review Statistics Separator"
+msgstr ""
+
+#: app/Customizer/defaults.php:283
+#: app/Controllers/Storefront/ReviewxPublic.php:140
+msgid "Review submission failed!"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:527
+#: app/Oxygen/elements/rvx-product-tabs.php:785
+msgid "Review Text Typography"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:116
+#: includes/admin/settings-metabox-helper.php:119
+#: includes/admin/cpt-metabox-helper.php:117
+#: includes/admin/cpt-metabox-helper.php:333
+#: includes/admin/rx-settings-page-helper.php:88
+#: includes/admin/rx-settings-page-helper.php:292
+#: includes/admin/builder-helper.php:117 includes/admin/builder-helper.php:369
+#: includes/admin/fields/free_subscription.php:4
+#: includes/admin/fields/free_subscription.php:23
+#: includes/admin/fields/free_subscription.php:29
+#: resources/views/admin/pages/edit-review.php:100
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:349
+msgid "Review Title"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:280
+#: partials/storefront/myaccount/add-review.php:71
+msgid "Review title"
+msgstr ""
+
+#: app/Customizer/defaults.php:279
+#: app/Controllers/Storefront/ReviewxPublic.php:133
+msgid "Review title can't be empty"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:522
+#: app/Oxygen/elements/rvx-product-tabs.php:780
+msgid "Review Title Typography"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:47
+#: partials/storefront/single-review/style-two.php:45
+#: partials/storefront/shortcode/templates/style-one.php:43
+#: partials/storefront/shortcode/templates/style-two.php:44
+#, php-format
+msgid "Reviewed by %02d customer(s)"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:49
+#: partials/storefront/single-review/style-two.php:47
+#: partials/storefront/shortcode/templates/style-one.php:45
+#: partials/storefront/shortcode/templates/style-two.php:46
+#, php-format
+msgid "Reviewed by %d customer(s)"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:351
+msgid "Reviewer"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:430
+#: app/Oxygen/elements/rvx-product-tabs.php:688
+msgid "Reviewer Name Typography"
+msgstr ""
+
+#: partials/storefront/shortcode/recommendation.php:47
+msgid "Reviewer(s) recommended this item"
+msgstr ""
+
+#: partials/storefront/product-reviews.php:23
+#: partials/storefront/product-reviews.php:47
+msgid "Reviews"
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/settings-metabox-helper.php:6
+#: app/Customizer/customizer.php:59 partials/admin/quick_setup.php:18
+#: partials/admin/quick_setup.php:31 partials/admin/setting-header.php:5
+#: partials/admin/setting-header.php:12 partials/admin/general-settings.php:18
+#: partials/admin/general-settings.php:24
+#: partials/admin/general-settings.php:158 partials/admin/review_email.php:18
+#: partials/admin/review_email.php:24 partials/admin/review_email.php:576
+#: partials/admin/settings.php:18 partials/admin/settings.php:24
+#: partials/admin/settings.php:203
+#: partials/storefront/shortcode/recommendation.php:27
+#: partials/storefront/shortcode/recommendation.php:29
+#: resources/views/admin/pages/edit-review.php:329
+#: resources/views/admin/pages/edit-review.php:348
+#: resources/views/admin/pages/edit-review.php:385
+msgid "ReviewX"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:5
+#: includes/admin/builder-quick-setup.php:5
+#: includes/admin/cpt-metabox-helper.php:6 includes/admin/builder-helper.php:6
+#: includes/admin/general-builder-helper.php:6
+msgid "ReviewX - Advanced Multi-criteria Rating & Reviews for WooCommerce"
+msgstr ""
+
+#: includes/admin/class-rx-settings.php:35
+msgid "ReviewX - Advanced Multi-criteria Rating & Reviews Icon"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:57
+msgid "ReviewX Commuinity"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:25
+msgid "ReviewX Contribute"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-criteria-graph.class.php:105
+msgid "ReviewX Criteria Graph"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:9
+msgid "ReviewX documentation"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:42
+msgid ""
+"ReviewX has a built-in unsubscribing page from review reminder email. But if "
+"wish to change the page, anytime you can. Just change the page URL and hit "
+"'Save'."
+msgstr ""
+
+#: partials/admin/footer-info-block.php:41
+msgid "ReviewX Help"
+msgstr ""
+
+#: partials/admin/quick_setup.php:35 partials/admin/setting-header.php:16
+#: partials/admin/general-settings.php:28 partials/admin/review_email.php:28
+#: partials/admin/settings.php:28
+msgid "ReviewX Pro"
+msgstr ""
+
+#: app/Elementor/Traits/Addons.php:28
+msgid "ReviewX Product Data Tabs"
+msgstr ""
+
+#: includes/rx-functions.php:14
+#, php-format
+msgid ""
+"ReviewX requires WooCommerce to be installed and active to working properly. "
+"%s"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-review-list.class.php:105
+msgid "ReviewX Review List"
+msgstr ""
+
+#: app/Modules/Activator.php:189
+msgid "ReviewX Schedule Email Unsubscribe"
+msgstr ""
+
+#: partials/storefront/page-template/load-unsubscriber-template.php:71
+msgid "ReviewX Schedule Email Unsubscriber"
+msgstr ""
+
+#: resources/views/partials/utilities/store-owner-title.php:7
+msgid "ReviewX shop icon"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-stats.class.php:139
+msgid "ReviewX Stats"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-summary.class.php:104
+msgid "ReviewX Summary"
+msgstr ""
+
+#: partials/admin/quick_setup.php:429 partials/admin/general-settings.php:138
+#: partials/admin/general-settings.php:144 partials/admin/review_email.php:322
+#: partials/admin/review_email.php:530 partials/admin/review_email.php:544
+#: partials/admin/settings.php:189
+#: resources/views/admin/pages/edit-review.php:407
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:214
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:403
+msgid "Save"
+msgstr ""
+
+#: partials/admin/quick_setup.php:277 partials/admin/quick_setup.php:279
+#: partials/admin/quick_setup.php:440 partials/admin/quick_setup.php:442
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:325
+msgid "Save & Next"
+msgstr ""
+
+#: partials/admin/quick_setup.php:277 partials/admin/quick_setup.php:440
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:215
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:326
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:404
+msgid "Save & Send Email"
+msgstr ""
+
+#: partials/admin/review_email.php:553 partials/admin/review_email.php:559
+msgid "Save Settings"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:213
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:324
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:402
+msgid "Saving..."
+msgstr ""
+
+#: partials/admin/review_email.php:188
+msgid "Scheduled At:"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:906
+msgid "Search"
+msgstr ""
+
+#: resources/views/all_reviews.php:6
+msgid "Search Review"
+msgstr ""
+
+#: app/Modules/Loader.php:143
+msgid "Search reviews"
+msgstr ""
+
+#: includes/class-rx-helper.php:491
+msgid "Select"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:1135
+msgid "Select All"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:470
+msgid "Select bulk action"
+msgstr ""
+
+#: includes/admin/cpt-metabox-helper.php:23
+msgid "Select custom post type to enable review"
+msgstr ""
+
+#: partials/admin/quick_setup.php:302 partials/admin/review_email.php:195
+#: partials/admin/review_email.php:404
+#: includes/admin/fields/email_reminder.php:28
+msgid "Select Order Status:"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:223
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:334
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:412
+msgid "Send Email"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:18
+#: includes/admin/builder-quick-setup.php:245
+msgid "Send Email To Customers To Remind About The Review"
+msgstr ""
+
+#: resources/views/partials/utilities/schedule_button.php:2
+#: app/Controllers/Admin/Email/ReminderEmail.php:139
+msgid "Send Now"
+msgstr ""
+
+#: includes/admin/fields/send_test_email.php:11
+msgid "Send test email"
+msgstr ""
+
+#: includes/admin/fields/send_test_email.php:5
+msgid "Send Test Email?"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:212
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:323
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:401
+msgid "Sending..."
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:206
+msgid "Sent successfully!"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:75
+msgid "Service"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:862
+msgid ""
+"Set how many reminder email(s) a customer should receive for single order."
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:300
+#: includes/admin/cpt-metabox-helper.php:274
+#: includes/admin/rx-settings-page-helper.php:233
+#: includes/admin/builder-helper.php:310
+msgid "Setting Preview"
+msgstr ""
+
+#: includes/rx-functions.php:44 includes/rx-functions.php:47
+#: includes/admin/builder-quick-setup.php:37
+#: includes/admin/settings-metabox-helper.php:37
+#: includes/admin/cpt-metabox-helper.php:42
+#: includes/admin/cpt-metabox-helper.php:51
+#: includes/admin/rx-settings-page-helper.php:28
+#: includes/admin/builder-helper.php:38
+msgid "Settings"
+msgstr ""
+
+#: app/Modules/OptimisticLock.php:57
+msgid ""
+"Settings have been updated from another tab. Please refresh to sync the "
+"latest data."
+msgstr ""
+
+#: resources/views/settings.php:1
+msgid "Settings Page"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:208
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:319
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:397
+msgid "Settings saved fail!"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:205
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:317
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:395
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:219
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:330
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:408
+msgid "Setup is Complete."
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:719
+#: app/Oxygen/elements/rvx-woo-reviews.php:731
+#: app/Oxygen/elements/rvx-product-tabs.php:977
+#: app/Oxygen/elements/rvx-product-tabs.php:989
+msgid "Share Icon Color"
+msgstr ""
+
+#: app/Customizer/defaults.php:267
+msgid "Share on"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:741
+#: app/Oxygen/elements/rvx-product-tabs.php:999
+msgid "Share Text Typography"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:248
+#: includes/admin/rx-settings-page-helper.php:219
+#: includes/admin/builder-helper.php:255
+msgid "Shop Icon"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:190
+msgid "Show Active Tab Arrow"
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:305
+msgid "Show Default Image"
+msgstr ""
+
+#: app/Extended/WPCore/WordpressListTable.php:534
+#: app/Extended/WPCore/WordpressListTable.php:1388
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1268
+msgid "Show more details"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:59
+msgid "Show Your Love"
+msgstr ""
+
+#: partials/admin/quick_setup.php:284 partials/admin/quick_setup.php:447
+msgid "Skip & Next"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:300
+#: app/Customizer/styles-controller/review-statistics.php:361
+#: app/Customizer/styles-controller/review-statistics.php:593
+msgid "Solid"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:718
+msgid "Sorry to see you go"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:688
+msgid "Sorry, you are not allowed to edit comments on this post."
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:31
+msgid "Sorry, you are not allowed to edit this comment."
+msgstr ""
+
+#: app/Customizer/defaults.php:259
+#: partials/storefront/single-review/style-one.php:65
+#: partials/storefront/single-review/style-two.php:63
+#: partials/storefront/shortcode/templates/style-one.php:53
+#: partials/storefront/shortcode/templates/style-two.php:54
+msgid "Sort by"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:424
+msgid "Spam"
+msgstr ""
+
+#: partials/admin/quick_setup.php:374 partials/admin/review_email.php:267
+#: partials/admin/review_email.php:476
+#: includes/admin/fields/email_reminder.php:55
+msgid "Special Conditions"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:247
+#: app/Customizer/styles-controller/review-statistics.php:540
+msgid "Spread"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:159
+#: app/Oxygen/elements/rvx-woo-reviews.php:115
+#: app/Oxygen/elements/rvx-woo-reviews.php:452
+#: app/Oxygen/elements/rvx-woo-reviews.php:464
+#: app/Oxygen/elements/rvx-product-tabs.php:373
+#: app/Oxygen/elements/rvx-product-tabs.php:710
+#: app/Oxygen/elements/rvx-product-tabs.php:722
+msgid "Star Rating Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:126
+#: app/Oxygen/elements/rvx-woo-reviews.php:476
+#: app/Oxygen/elements/rvx-woo-reviews.php:500
+#: app/Oxygen/elements/rvx-product-tabs.php:384
+#: app/Oxygen/elements/rvx-product-tabs.php:734
+#: app/Oxygen/elements/rvx-product-tabs.php:758
+msgid "Star Rating Height"
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:179
+msgid "Star Rating Size"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:137
+#: app/Oxygen/elements/rvx-woo-reviews.php:488
+#: app/Oxygen/elements/rvx-woo-reviews.php:512
+#: app/Oxygen/elements/rvx-product-tabs.php:395
+#: app/Oxygen/elements/rvx-product-tabs.php:746
+#: app/Oxygen/elements/rvx-product-tabs.php:770
+msgid "Star Rating Width"
+msgstr ""
+
+#: includes/admin/fields/preview.php:6
+#: app/Controllers/Storefront/ReviewxPublic.php:567
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:354
+#: app/Controllers/Admin/Email/ReminderEmail.php:122
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:1108
+msgid "Status"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:413
+msgid "Status:"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:890
+#: app/Oxygen/elements/rvx-woo-reviews.php:902
+#: app/Oxygen/elements/rvx-product-tabs.php:1148
+#: app/Oxygen/elements/rvx-product-tabs.php:1160
+msgid "Store Logo Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:866
+#: app/Oxygen/elements/rvx-woo-reviews.php:878
+#: app/Oxygen/elements/rvx-product-tabs.php:1124
+#: app/Oxygen/elements/rvx-product-tabs.php:1136
+msgid "Store Logo Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:936
+#: app/Oxygen/elements/rvx-product-tabs.php:1194
+msgid "Store Name Typography"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:862
+#: app/Oxygen/elements/rvx-product-tabs.php:1120
+msgid "Store Reply"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:989
+#: app/Oxygen/elements/rvx-product-tabs.php:1247
+msgid "Store Reply Text Typography"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:47
+msgid "Stuck with something? Get help from live chat or support ticket."
+msgstr ""
+
+#: includes/admin/fields/radio.php:14
+msgid "Style 1"
+msgstr ""
+
+#: includes/admin/fields/radio.php:15
+msgid "Style 2"
+msgstr ""
+
+#: includes/admin/fields/radio.php:16
+msgid "Style 3"
+msgstr ""
+
+#: partials/storefront/myaccount/add-review.php:201
+msgid "Submit"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:831
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1575
+#: app/Oxygen/elements/rvx-woo-reviews.php:1628
+#: app/Oxygen/elements/rvx-product-tabs.php:1833
+#: app/Oxygen/elements/rvx-product-tabs.php:1886
+msgid "Submit Button Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1582
+#: app/Oxygen/elements/rvx-woo-reviews.php:1635
+#: app/Oxygen/elements/rvx-product-tabs.php:1840
+#: app/Oxygen/elements/rvx-product-tabs.php:1893
+msgid "Submit Button Border Radius"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1569
+#: app/Oxygen/elements/rvx-woo-reviews.php:1621
+#: app/Oxygen/elements/rvx-product-tabs.php:1827
+#: app/Oxygen/elements/rvx-product-tabs.php:1879
+msgid "Submit Button Text Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:1659
+#: app/Oxygen/elements/rvx-product-tabs.php:1917
+msgid "Submit Button Text Typography"
+msgstr ""
+
+#: app/Customizer/defaults.php:276
+#: partials/storefront/single-review/style-one.php:296
+#: partials/storefront/single-review/style-two.php:298
+msgid "Submit Review"
+msgstr ""
+
+#: partials/storefront/myaccount/order-table.php:167
+msgid "Submit review"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:355
+msgid "Submitted At"
+msgstr ""
+
+#. %s: Comment date.
+#: resources/views/admin/pages/edit-review.php:452
+#, php-format
+msgid "Submitted on: %s"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:773
+msgid "Submitting form"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:136
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:204
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:316
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:394
+msgid "Success"
+msgstr ""
+
+#: app/Controllers/Admin/Email/EmailSettings.php:43
+msgid "Successfully email sent to your mail!"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:421
+msgid "Successfully email template reset!"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:36
+msgid ""
+"Suppose you blast the review reminder email, then a customer decides that "
+"he/she doesn't want to add a review. Then what? will you continue sending an "
+"email. Actually you don't, you can set how many times ReviewX should send "
+"the review reminder email."
+msgstr ""
+
+#: includes/class-plugin-tracker.php:624
+msgid "Sure, I'd like to help"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:126
+msgid "Tab Background Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:132
+msgid "Tab Border Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:151
+msgid "Tab Spacing"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:46
+msgid "Tabs"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:81
+msgid "Tabs Layout"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: includes/admin/builder-quick-setup.php:258
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "Team "
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:75
+#: app/Oxygen/elements/rvx-product-tabs.php:333
+msgid "Template"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:24
+#: includes/admin/builder-quick-setup.php:188
+#: includes/admin/settings-metabox-helper.php:198
+#: includes/admin/cpt-metabox-helper.php:199
+#: includes/admin/rx-settings-page-helper.php:168
+#: includes/admin/builder-helper.php:205
+#: includes/admin/fields/send_email_theme.php:11
+msgid "Template Style"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:224
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:335
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:413
+msgid "Test Mail"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:225
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:336
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:414
+msgid "Test mail sent successfully!"
+msgstr ""
+
+#: app/Customizer/styles-controller/filtering-bar.php:30
+#: app/Customizer/styles-controller/filtering-bar.php:169
+#: app/Oxygen/elements/rvx-woo-reviews.php:290
+#: app/Oxygen/elements/rvx-woo-reviews.php:302
+#: app/Oxygen/elements/rvx-woo-reviews.php:1377
+#: app/Oxygen/elements/rvx-woo-reviews.php:1389
+#: app/Oxygen/elements/rvx-product-tabs.php:548
+#: app/Oxygen/elements/rvx-product-tabs.php:560
+#: app/Oxygen/elements/rvx-product-tabs.php:1635
+#: app/Oxygen/elements/rvx-product-tabs.php:1647
+msgid "Text Color"
+msgstr ""
+
+#: includes/rx-functions.php:1331 includes/rx-functions.php:1339
+#: partials/storefront/single-review/style-one.php:76
+#: partials/storefront/single-review/style-two.php:74
+#: partials/storefront/shortcode/templates/style-one.php:64
+#: partials/storefront/shortcode/templates/style-two.php:65
+msgid "Text Review"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:312
+#: app/Oxygen/elements/rvx-product-tabs.php:570
+msgid "Text Typography"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+msgid "Thank you for purchasing items from the "
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:258
+msgid "Thank you for44 purchasing44 items from the"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "Thank you purchasing items from the "
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:228
+#: includes/admin/settings-metabox-helper.php:237
+#: includes/admin/cpt-metabox-helper.php:239
+#: includes/admin/rx-settings-page-helper.php:208
+#: includes/admin/builder-helper.php:245
+msgid "Theme Color"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:275
+#: partials/storefront/single-review/style-two.php:275
+msgid "There are no reviews yet."
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:1311
+msgid "There is an error updating status."
+msgstr ""
+
+#: partials/storefront/single-review/filter/style-one.php:195
+#: partials/storefront/single-review/filter/style-two.php:191
+#: partials/storefront/shortcode/templates/style-one.php:243
+#: partials/storefront/shortcode/templates/style-two.php:238
+msgid "There is no photo review yet."
+msgstr ""
+
+#: partials/storefront/single-review/filter/style-one.php:197
+#: partials/storefront/single-review/filter/style-one.php:199
+#: partials/storefront/single-review/filter/style-two.php:193
+#: partials/storefront/single-review/filter/style-two.php:195
+#: partials/storefront/shortcode/templates/style-one.php:245
+#: partials/storefront/shortcode/templates/style-one.php:247
+#: partials/storefront/shortcode/templates/style-two.php:240
+#: partials/storefront/shortcode/templates/style-two.php:242
+msgid "There is no text review yet."
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:743
+msgid "This comment is already approved."
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:746
+msgid "This comment is already in the Trash."
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:749
+msgid "This comment is already marked as spam."
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:35
+msgid ""
+"This comment is in the Trash. Please move it out of the Trash if you want to "
+"edit it."
+msgstr ""
+
+#: app/Customizer/defaults.php:286
+#: app/Controllers/Storefront/ReviewxPublic.php:141
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:216
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:327
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:405
+msgid "This email has already given review on this product"
+msgstr ""
+
+#: config/settings.php:5
+msgid "This is a sample of extra config file."
+msgstr ""
+
+#: partials/admin/quick_setup.php:322 partials/admin/review_email.php:215
+#: partials/admin/review_email.php:423
+#: includes/admin/fields/email_reminder.php:10
+msgid "This Month"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1799
+msgid ""
+"This widget only works for the product page. In order to achieve, follow the "
+"steps: this  Dashboard >  Template  > Theme Builder > Add New > Choose "
+"Template Type 'Single Product' > Create Template"
+msgstr ""
+
+#: partials/admin/quick_setup.php:324 partials/admin/review_email.php:217
+#: partials/admin/review_email.php:425
+#: includes/admin/fields/email_reminder.php:12
+msgid "This Year"
+msgstr ""
+
+#: includes/admin/fields/send_test_email.php:16
+msgid ""
+"To send the review reminder email you have to make sure that your WordPress "
+"mail delivery is working properly. Don’t worry, for easy configuration you "
+"can use"
+msgstr ""
+
+#: includes/admin/fields/insight.php:155
+msgid "Top Customars by Review"
+msgstr ""
+
+#: includes/admin/fields/insight.php:136
+msgid "Top Product by Review"
+msgstr ""
+
+#: includes/rx-functions.php:1332 includes/rx-functions.php:1340
+#: partials/storefront/single-review/style-one.php:79
+#: partials/storefront/single-review/style-two.php:77
+#: partials/storefront/shortcode/templates/style-one.php:67
+#: partials/storefront/shortcode/templates/style-two.php:68
+msgid "Top Rated"
+msgstr ""
+
+#: partials/admin/quick_setup.php:423 partials/admin/review_email.php:525
+msgid "Top Rated Product"
+msgstr ""
+
+#: partials/admin/review_email.php:316
+msgid "Top Rated product"
+msgstr ""
+
+#: partials/admin/rx-admin-analytics-counter.php:24
+msgid "Total Clicks"
+msgstr ""
+
+#: app/Controllers/Admin/Email/ReminderEmail.php:121
+msgid "Total Delivery"
+msgstr ""
+
+#: partials/admin/stats.php:20 partials/admin/stats.php:24
+#: resources/views/partials/all_reviews_analytics.php:20
+#: resources/views/partials/all_reviews_analytics.php:24
+#: resources/views/admin/components/manage-all-reviews/stats.php:20
+#: resources/views/admin/components/manage-all-reviews/stats.php:24
+msgid "Total Product/Post Reviewed"
+msgstr ""
+
+#: partials/admin/stats.php:33 partials/admin/stats.php:37
+#: resources/views/partials/all_reviews_analytics.php:33
+#: resources/views/partials/all_reviews_analytics.php:37
+#: resources/views/admin/components/manage-all-reviews/stats.php:33
+#: resources/views/admin/components/manage-all-reviews/stats.php:37
+msgid "Total Product/Post Reviewers"
+msgstr ""
+
+#: includes/admin/fields/insight.php:167
+msgid "Total Review"
+msgstr ""
+
+#: partials/admin/stats.php:7 partials/admin/stats.php:11
+#: resources/views/partials/all_reviews_analytics.php:7
+#: resources/views/partials/all_reviews_analytics.php:11
+#: resources/views/admin/components/manage-all-reviews/stats.php:7
+#: resources/views/admin/components/manage-all-reviews/stats.php:11
+msgid "Total Reviews"
+msgstr ""
+
+#: partials/admin/rx-admin-analytics-counter.php:11
+msgid "Total Views"
+msgstr ""
+
+#: partials/admin/rx-admin.php:30 partials/admin/rx-admin.php:88
+msgid "Trash"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:772
+#: app/Oxygen/elements/rvx-woo-reviews.php:784
+#: app/Oxygen/elements/rvx-product-tabs.php:1030
+#: app/Oxygen/elements/rvx-product-tabs.php:1042
+msgid "Twitter Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:287
+msgid "Typography"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:395
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1154
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1179
+msgid "Unapprove"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1153
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1178
+msgid "Unapprove this comment"
+msgstr ""
+
+#: resources/views/partials/utilities/unapproved.php:1
+msgid "Unapproved"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:714
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:725
+msgid "Undo"
+msgstr ""
+
+#: app/Controllers/Admin/Email/Editor.php:316
+msgid "unsubscribe"
+msgstr ""
+
+#: includes/admin/fields/free_subscription.php:40
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:867
+msgid "Unsubscribe URL"
+msgstr ""
+
+#: includes/admin/fields/repeat-field.php:21
+#: includes/admin/fields/repeat-field.php:41
+#: includes/admin/fields/repeat-field.php:59
+#: includes/admin/fields/repeat-field.php:77
+msgid "Up field"
+msgstr ""
+
+#: app/Customizer/defaults.php:264
+#: app/Controllers/Storefront/ReviewxPublic.php:147
+#: resources/views/admin/pages/edit-review.php:522
+msgid "Update"
+msgstr ""
+
+#: includes/class-rx-user-avatar-shortcode.php:128
+msgid "Update Profile"
+msgstr ""
+
+#: includes/rx-functions.php:52
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:386
+msgid "Upload a video"
+msgstr ""
+
+#: app/Customizer/defaults.php:270
+#: resources/views/admin/pages/edit-review.php:358
+msgid "Upload File"
+msgstr ""
+
+#: includes/admin/fields/media.php:47
+msgid "Upload icon"
+msgstr ""
+
+#: includes/class-rx-user-avatar-shortcode.php:109
+#: includes/class-rx-user-avatar.php:46
+#: app/Controllers/Storefront/ReviewxPublic.php:1076
+#: app/Controllers/Storefront/ReviewxPublic.php:1078
+msgid "Upload image"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:415
+#: app/Controllers/Storefront/ReviewxPublic.php:437
+#: resources/views/admin/pages/edit-review.php:349
+msgid "Upload images"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:94
+msgid "URL"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-product-tabs.php:293
+msgid "Value Typography"
+msgstr ""
+
+#: includes/admin/fields/template.php:14
+msgid "Variables: "
+msgstr ""
+
+#. "Mark as spam" link.
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1190
+msgctxt "verb"
+msgid "Spam"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:1226
+msgctxt "verb"
+msgid "Trash"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:587
+#: app/Oxygen/elements/rvx-woo-reviews.php:599
+#: app/Oxygen/elements/rvx-product-tabs.php:845
+#: app/Oxygen/elements/rvx-product-tabs.php:857
+msgid "Verified Badge Icon Color"
+msgstr ""
+
+#: app/Oxygen/elements/rvx-woo-reviews.php:609
+#: app/Oxygen/elements/rvx-product-tabs.php:867
+msgid "Verified Badge Text Typography"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:229
+#: partials/storefront/single-review/style-two.php:228
+#: partials/storefront/single-review/filter/style-one.php:120
+#: partials/storefront/single-review/filter/style-two.php:117
+#: partials/storefront/shortcode/templates/style-one.php:188
+#: partials/storefront/shortcode/templates/style-two.php:186
+msgid "Verified Purchase"
+msgstr ""
+
+#: app/Customizer/styles-controller/graph-criteria.php:203
+#: app/Customizer/styles-controller/review-statistics.php:496
+msgid "Vertical"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1209
+#: app/Controllers/Storefront/ReviewxPublic.php:1266
+msgid "Very Good"
+msgstr ""
+
+#: app/Controllers/Storefront/ReviewxPublic.php:1227
+#: app/Controllers/Storefront/ReviewxPublic.php:1284
+msgid "Very Poor"
+msgstr ""
+
+#: includes/rx-functions.php:1330
+msgid "Video Review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:72
+#: includes/admin/settings-metabox-helper.php:73
+#: includes/admin/cpt-metabox-helper.php:73
+#: includes/admin/rx-settings-page-helper.php:56
+#: includes/admin/builder-helper.php:73
+msgid "Video Source"
+msgstr ""
+
+#: resources/views/admin/pages/edit-review.php:369
+msgid "Video URL"
+msgstr ""
+
+#: resources/views/partials/utilities/view.php:1
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:905
+msgid "View"
+msgstr ""
+
+#: includes/admin/fields/email_reminder.php:87
+msgid "View content!"
+msgstr ""
+
+#: partials/storefront/myaccount/order-table.php:130
+msgid "View review"
+msgstr ""
+
+#: partials/admin/rx-admin-analytics-counter.php:7
+#: partials/admin/rx-admin-analytics-counter.php:20
+#: partials/admin/rx-admin-analytics-counter.php:33
+msgid "View Total"
+msgstr ""
+
+#: app/Controllers/Admin/Reviews/ManageAllReviews.php:746
+msgid "View Trash"
+msgstr ""
+
+#: includes/class-rx.php:60
+#, php-format
+msgid ""
+"Want to help make <strong>ReviewX</strong> even more awesome? You can get "
+"upto <strong>40% discount coupon</strong> for Premium extensions if you "
+"allow us to track the usage."
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:220
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:331
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:409
+msgid "Warning!"
+msgstr ""
+
+#: app/Modules/Loader.php:58 app/Modules/Loader.php:59
+#: app/Modules/Loader.php:77 app/Modules/Loader.php:78
+msgid "WC Quick Setup"
+msgstr ""
+
+#: app/Modules/Loader.php:50 app/Modules/Loader.php:51
+msgid "WC Review Email"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:246
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:247
+msgid "WC Settings"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:220
+#: includes/admin/settings-metabox-helper.php:224
+#: includes/admin/cpt-metabox-helper.php:231
+#: includes/admin/rx-settings-page-helper.php:200
+#: includes/admin/builder-helper.php:237
+msgid ""
+"We calculate the average rating  from this happy-sad  rating & will display "
+"as a star rating in individual review"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:214
+#: includes/admin/settings-metabox-helper.php:229
+#: includes/admin/cpt-metabox-helper.php:225
+#: includes/admin/rx-settings-page-helper.php:194
+#: includes/admin/builder-helper.php:231
+msgid ""
+"We calculate the average rating  from this like-dislike  rating & will "
+"display as a star rating in individual review"
+msgstr ""
+
+#: includes/class-plugin-tracker.php:366
+msgid ""
+"We can't detect any plugin information. This is most probably because you "
+"have not included the code in the plugin main file."
+msgstr ""
+
+#: includes/class-rx.php:61
+msgid ""
+"We collect non-sensitive diagnostic data and plugin usage information. Your "
+"site URL, WordPress & PHP version, plugins & themes and email address to "
+"send you the discount coupon. This data lets us make sure this plugin always "
+"stays compatible with the most popular plugins and themes. No spam, I "
+"promise."
+msgstr ""
+
+#: includes/class-rx-message.php:949
+msgid ""
+"We hope you're enjoying ReviewX! Could you please do us a BIG favor and give "
+"it a 5-star rating on WordPress to help us spread the word and boost our "
+"motivation?"
+msgstr ""
+
+#: partials/admin/footer-info-block.php:63
+msgid ""
+"We love to have you in reviewx family. We are making it more awesome "
+"everyday. Take your 2 minutes to review the plugin and spread the love to "
+"encourage us to keep it going."
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:258
+msgid ""
+"We love to know your experiences with the product(s) that you recently "
+"purchased."
+msgstr ""
+
+#: includes/class-plugin-tracker.php:623
+msgid "What we collect."
+msgstr ""
+
+#: app/Customizer/styles-controller/review-statistics.php:381
+msgid "Width"
+msgstr ""
+
+#: partials/admin/rx-admin.php:67
+msgid "WooCommerce"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:419
+msgid "Would you like to reset your email content?"
+msgstr ""
+
+#: includes/admin/fields/send_test_email.php:16
+msgid "WP Mail by WPForms plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr ""
+
+#: partials/admin/rx-admin.php:187 partials/admin/rx-admin.php:190
+msgid "Y/m/d"
+msgstr ""
+
+#: partials/admin/quick_setup.php:320 partials/admin/review_email.php:213
+#: partials/admin/review_email.php:421
+#: includes/admin/fields/email_reminder.php:8
+msgid "Yesterday"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: includes/admin/builder-quick-setup.php:258
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid ""
+"You can browse a list of orders from your account page and can submit your "
+"feedback based on multiple criteria that we specially designed for you. To "
+"browse your orders: "
+msgstr ""
+
+#: partials/admin/footer-info-block.php:31
+msgid ""
+"You can contribute to make ReviewX better reporting bugs, creating issues "
+"and request for a new feature at"
+msgstr ""
+
+#: includes/class-rx-core-installer.php:55
+msgid "You don't have permission to install the plugins"
+msgstr ""
+
+#: includes/class-rx-core-installer.php:62
+msgid "You don't have set any slug and file name to install the plugins"
+msgstr ""
+
+#. %s opening and closing link tags respectively
+#: partials/storefront/single-review/style-one.php:330
+#: partials/storefront/single-review/style-two.php:332
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:258
+msgid "you placed the order "
+msgstr ""
+
+#: includes/rx-functions.php:963
+msgid "Your email address will not be published."
+msgstr ""
+
+#: includes/admin/settings-metabox-helper.php:278
+msgid "Your Feedback Means a Lot to Us!"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:258
+msgid "Your feedback means a lot to us! Thanks for being a loyal"
+msgstr ""
+
+#: includes/admin/builder-review-email.php:41
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:417
+msgid "Your feedback means a lot to us! Thanks for being a loyal "
+msgstr ""
+
+#: includes/admin/builder-review-email.php:35
+#: includes/admin/builder-quick-setup.php:252
+msgid "Your Feedback Means a Lot to Us! | [SHOP_NAME]"
+msgstr ""
+
+#: includes/admin/builder-quick-setup.php:280
+msgid "Your multi criteria based review system is ready to use!"
+msgstr ""
+
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:217
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:328
+#: app/Controllers/Admin/Core/ReviewxAdmin.php:406
+msgid "Your product review criteria field is empty"
+msgstr ""
+
+#: partials/storefront/single-review/style-one.php:174
+#: partials/storefront/single-review/style-two.php:173
+#: partials/storefront/single-review/filter/style-one.php:65
+#: partials/storefront/single-review/filter/style-two.php:62
+#: partials/storefront/shortcode/templates/style-one.php:133
+#: partials/storefront/shortcode/templates/style-two.php:131
+msgid "Your review is awaiting for approval"
+msgstr ""
+
+#: app/Customizer/defaults.php:281
+#: app/Controllers/Storefront/ReviewxPublic.php:137
+msgid "Your review submitted successfully!"
+msgstr ""

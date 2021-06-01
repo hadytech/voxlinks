@@ -1,0 +1,861 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Crowdfundly\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-07 06:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1\n"
+"X-Domain: crowdfundly"
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#: pagebuilders/elementor/crowdfundly-elementor.php:130
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-similar-camp.php:30
+#: public/partials/organization/template-two.php:102
+#: public/partials/organization/template-one.php:123
+#, php-format
+msgid "%1$d %2$s"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:89
+#, php-format
+msgid "%1$s %2$s %3$s"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:70
+#: public/partials/single-campaign-template-parts/campaign-reward.php:68
+#, php-format
+msgid "%s OFF"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:104
+msgid "*You have to install WooCommerce to enable this feature"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:389
+msgid "Active Tab Border Bottom Color"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:378
+msgid "Active Tab Color"
+msgstr ""
+
+#: public/partials/crowdfundly-single-campaign-page.php:46
+msgid "Activities"
+msgstr ""
+
+#: admin/includes/fields/crowdfundly-adv_checkbox.php:11
+msgid "Advanced Design"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:16
+msgid "All Campaign"
+msgstr ""
+
+#: admin/customizer/customizer.php:48
+msgid "All Campaign Page"
+msgstr ""
+
+#: public/partials/organization/template-two.php:112
+#: public/partials/organization/template-one.php:134
+msgid "All Campaigns"
+msgstr ""
+
+#: admin/partials/crowdfundly-shortcodes-display.php:18
+msgid "All Campaigns Page"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"All-in-one digital crowdfunding solution. Build your own crowdfunding "
+"platform to raise money for any purpose."
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:22
+msgid "Almost there"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-contribute-modal.php:4
+msgid "Amount"
+msgstr ""
+
+#: public/class-crowdfundly-public.php:222
+#: public/partials/single-campaign-template-parts/campaign-top-contributers.php:19
+#: public/partials/single-campaign-template-parts/campaign-activites-tab.php:33
+msgid "Amount:"
+msgstr ""
+
+#: public/class-crowdfundly-public.php:209
+#: public/partials/single-campaign-template-parts/campaign-activites-tab.php:20
+msgid "Anonymous Contributor"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:16
+#: admin/includes/class-crowdfundly-settings-page-helper.php:60
+msgid "API Key"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:191
+msgid "API Key not provided!"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:38
+msgid "APP Key"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:11
+msgid "Auth banner image"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:195
+msgid "Authentication failed! Please enter a valid key."
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:91
+msgid "Back It"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:3
+msgid "Back this campaign"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:152
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:191
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:284
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:315
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:197
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:309
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:340
+#: pagebuilders/elementor/widgets/organization-widget.php:526
+#: pagebuilders/elementor/widgets/organization-widget.php:557
+msgid "Background Color"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-top-contributers.php:27
+msgid "Badge"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:326
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:351
+#: pagebuilders/elementor/widgets/organization-widget.php:568
+msgid "Border Color"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:73
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:243
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:268
+#: pagebuilders/elementor/widgets/organization-widget.php:485
+msgid "Border Radius"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:47
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:89
+msgid "Bottom Spacing"
+msgstr ""
+
+#: admin/partials/crowdfundly-settings-header.php:6
+#, php-format
+msgid "Build Your <strong>%s</strong> Platform"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:206
+#: pagebuilders/elementor/widgets/organization-widget.php:448
+msgid "Button"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:14
+msgid "by"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:31
+msgid "Campaign Detail"
+msgstr ""
+
+#: admin/customizer/controls/all-campaign-page.php:43
+msgid "Campaign Name Color"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:81
+msgid "Campaign Status"
+msgstr ""
+
+#: public/partials/crowdfundly-single-campaign-page.php:36
+msgid "Campaign story"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:40
+msgid "Campaign Title"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:8
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:345
+msgid "Campaigns"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:432
+#: pagebuilders/elementor/widgets/organization-widget.php:436
+msgid "Card Background Color"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:206
+msgid "Click OK to continue"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:69
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:114
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:145
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:297
+#: pagebuilders/elementor/widgets/organization-widget.php:182
+#: pagebuilders/elementor/widgets/organization-widget.php:215
+#: pagebuilders/elementor/widgets/organization-widget.php:245
+msgid "Color"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:197
+#: admin/partials/crowdfunly-sign-in.php:48
+msgid "Connect"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:196
+msgid "Connecting..."
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-contribute-modal.php:33
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:18
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:109
+msgid "Continue"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:94
+msgid "Contribute Now"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:22
+msgid "Contributions are not associated with perks"
+msgstr ""
+
+#: admin/customizer/customizer.php:65
+msgid "Controls the design settings for the theme."
+msgstr ""
+
+#. Name of the plugin
+#: admin/customizer/customizer.php:64
+#: pagebuilders/elementor/crowdfundly-elementor.php:105
+#: pagebuilders/elementor/crowdfundly-elementor.php:131
+msgid "Crowdfundly"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:446 admin/class-crowdfundly-admin.php:448
+msgid "Crowdfundly Campaign Product"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:288
+msgid "Crowdfundly Dashboard"
+msgstr ""
+
+#: admin/partials/crowdfundly-settings-header.php:4
+msgid "Crowdfundly Logo"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:294
+msgid "Crowdfundly Settings"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-page-template.php:59
+msgid "Crowdfundly Template"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:102
+msgid "Custom Amount"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:289
+msgid "Dashboard"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:50
+msgid "Days to Go"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:257
+msgid "Description"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:26
+#: admin/includes/class-crowdfundly-settings-page-helper.php:31
+msgid "Design"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings.php:258
+msgid "Design on Customizer"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:50
+msgid "Disconnect API"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:199
+msgid "Disconnecting..."
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:28
+msgid "Don't have an account?"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:231
+msgid "Donation Button"
+msgstr ""
+
+#: admin/customizer/controls/single-campaign-page.php:49
+msgid "Donation Button Text"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:168
+msgid "Donation Detail"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:421
+#: pagebuilders/elementor/widgets/organization-widget.php:425
+msgid "Donation Status Color"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:401
+#: pagebuilders/elementor/widgets/organization-widget.php:405
+msgid "Donation Status Typography"
+msgstr ""
+
+#: pagebuilders/elementor/crowdfundly-elementor.php:132
+msgid "Elementor"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:57
+msgid "Email address"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:100
+msgid "Enable to accept fund using WC payment gateway"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:98
+msgid "Enable WC Payment"
+msgstr ""
+
+#: public/partials/crowdfundly-single-campaign-page.php:51
+msgid "Endorsements"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:39
+msgid "Enter API key here"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:202
+msgid "Error"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:194
+msgid "Failed"
+msgstr ""
+
+#: admin/customizer/controls/all-campaign-page.php:61
+msgid "Feature Image Height"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:165
+msgid "Focus"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:101
+msgid "Font Size"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:77
+msgid "Forgot password?"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:28
+msgid "Funding Goal"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:38
+msgid "Funds Raised"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:5
+#: admin/includes/class-crowdfundly-settings-page-helper.php:45
+msgid "General"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:11
+#: admin/includes/class-crowdfundly-settings-page-helper.php:55
+#: admin/includes/class-crowdfundly-settings-page-helper.php:75
+msgid "General Settings"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:44
+msgid "Get APP Key"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:63
+#: public/partials/single-campaign-template-parts/campaign-reward.php:60
+msgid "Get Now"
+msgstr ""
+
+#: public/class-crowdfundly-public.php:213
+#: public/partials/single-campaign-template-parts/campaign-activites-tab.php:24
+msgid "has contributed"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-endorsments-tab.php:20
+msgid "has endorsed as a"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:29
+#: pagebuilders/elementor/widgets/organization-widget.php:119
+msgid "Height"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:39
+#: pagebuilders/elementor/widgets/organization-widget.php:40
+#: pagebuilders/elementor/widgets/organization-widget.php:363
+msgid "Hide Section"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:297
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:322
+#: pagebuilders/elementor/widgets/organization-widget.php:539
+msgid "Hover"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:156
+msgid "Hover Color"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://crowdfundly.io/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.net/"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:293
+msgid "Icon Size"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:372
+#: pagebuilders/elementor/widgets/organization-widget.php:376
+msgid "Image Height"
+msgstr ""
+
+#: includes/class-crowdfundly-api.php:373
+msgid "Internal Server Error"
+msgstr ""
+
+#: includes/class-crowdfundly-helper.php:443
+msgid "Invalid video URL !"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:219
+msgid "Label Color"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:25
+msgid "Last updated"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:36
+#: public/partials/single-campaign-template-parts/campaign-reward.php:14
+msgid "left"
+msgstr ""
+
+#: public/partials/organization/template-two.php:40
+#: public/partials/organization/template-one.php:57
+msgid "Linked accounts"
+msgstr ""
+
+#: public/class-crowdfundly-public.php:116
+#: public/partials/single-campaign-template-parts/campaign-activites-tab.php:57
+msgid "Load more"
+msgstr ""
+
+#: public/class-crowdfundly-public.php:117
+msgid "Loading..."
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:6
+#: pagebuilders/elementor/widgets/organization-widget.php:90
+msgid "Logo"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:145
+msgid "Logo Height"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:123
+msgid "Logo Width"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:7
+msgid "Make a contribution"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:342
+msgid "Media Link Color"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:333
+msgid "Media Link Typography"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:321
+msgid "Media Name Color"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:312
+msgid "Media Name Typography"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:161
+msgid "Name"
+msgstr ""
+
+#: admin/customizer/controls/single-campaign-page.php:13
+#: admin/customizer/controls/organization-page.php:61
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:410
+#: pagebuilders/elementor/widgets/organization-widget.php:414
+msgid "Name Color"
+msgstr ""
+
+#: admin/customizer/controls/single-campaign-page.php:31
+#: admin/customizer/controls/organization-page.php:79
+msgid "Name Font Size"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:391
+#: pagebuilders/elementor/widgets/organization-widget.php:395
+msgid "Name Typography"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:23
+msgid "Newest"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:71
+msgid "No campaigns to show"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-endorsments-tab.php:45
+msgid "No Endorsement found for this campaign"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-updates-tab.php:51
+msgid "No Update Found"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:129
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:265
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:290
+#: pagebuilders/elementor/widgets/organization-widget.php:507
+msgid "Normal"
+msgstr ""
+
+#: includes/class-crowdfundly-api.php:363
+msgid "Not Authorized"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:56
+msgid "OF"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-similar-camp.php:32
+#: public/partials/organization/template-two.php:104
+#: public/partials/organization/template-one.php:125
+#, php-format
+msgid "OF %1$d %2$s"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:36
+#: public/partials/single-campaign-template-parts/campaign-reward.php:14
+msgid "Only"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:46
+#: pagebuilders/elementor/widgets/organization-widget.php:16
+msgid "Organization"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:81
+msgid "Organization Detail"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:127
+msgid "Organization Name"
+msgstr ""
+
+#: admin/customizer/customizer.php:42
+#: admin/partials/crowdfundly-shortcodes-display.php:5
+msgid "Organization Page"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:61
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:214
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:239
+#: pagebuilders/elementor/widgets/organization-widget.php:456
+msgid "Padding"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:61
+msgid "Password"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:87
+#: admin/includes/class-crowdfundly-settings-page-helper.php:93
+msgid "Payment Settings"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:114
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-contribute-modal.php:38
+msgid "Please select a preset amount or custom amount"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-detail.php:8
+msgid "Published"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:163
+#: pagebuilders/elementor/widgets/organization-widget.php:355
+#: public/partials/organization/template-two.php:76
+#: public/partials/organization/template-one.php:96
+msgid "Recent Campaign"
+msgstr ""
+
+#: admin/customizer/custom-controls/range-control.php:48
+msgid "Reset"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:207
+#: admin/includes/class-crowdfundly-settings-page-helper.php:90
+msgid "Save Settings"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:200
+msgid "Saving..."
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:16
+msgid "Search"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:31
+msgid "Search Bar"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:53
+msgid "Search Input"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:27
+msgid "Select a Perk"
+msgstr ""
+
+#: public/partials/crowdfundly-single-campaign-page.php:62
+msgid "Select a reward"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:295
+msgid "Settings"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:205
+msgid "Settings Not Saved!"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:204
+msgid "Settings saved successfully"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:44
+#: public/partials/single-campaign-template-parts/campaign-reward.php:30
+msgid "Shipping"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:56
+#: public/partials/single-campaign-template-parts/campaign-reward.php:46
+msgid "Shipping fee: "
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-reward-modal.php:52
+#: public/partials/single-campaign-template-parts/campaign-reward.php:40
+msgid "Shipping location: "
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:194
+msgid "Short Description"
+msgstr ""
+
+#: admin/includes/class-crowdfundly-settings-page-helper.php:70
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:73
+msgid "Sign In"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:30
+msgid "Sign Up"
+msgstr ""
+
+#: public/partials/single-campaign-template-parts/campaign-similar-camp.php:4
+msgid "Similar Campaigns"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:16
+msgid "Single Campaign"
+msgstr ""
+
+#: admin/customizer/customizer.php:54
+#: admin/partials/crowdfundly-shortcodes-display.php:31
+msgid "Single Campaign Page"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:11
+#: pagebuilders/elementor/widgets/organization-widget.php:32
+msgid "Slider"
+msgstr ""
+
+#: admin/customizer/controls/organization-page.php:101
+msgid "Social Icon Size"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:267
+msgid "Social Media"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:203
+msgid "Someting went wrong"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:70
+msgid "Sorry"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:20
+msgid "Sort by"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:275
+msgid "Space Between"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:353
+msgid "Space Between Campaigns"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:17
+msgid "Start crowdfunding with greatly optimized fundraising process"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:201
+msgid "Succes"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:192
+msgid "Success"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:24
+msgid "Successful"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:193
+msgid "Successfully Authenticated!"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:198
+msgid "Successfully Disconnected!"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:370
+msgid "Tabs"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:103
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:272
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:304
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:329
+#: pagebuilders/elementor/widgets/organization-widget.php:514
+#: pagebuilders/elementor/widgets/organization-widget.php:546
+msgid "Text Color"
+msgstr ""
+
+#: admin/customizer/controls/all-campaign-page.php:12
+#: admin/customizer/controls/organization-page.php:177
+#: pagebuilders/elementor/widgets/organization-widget.php:227
+msgid "Title"
+msgstr ""
+
+#: admin/customizer/controls/all-campaign-page.php:28
+msgid "Title Color"
+msgstr ""
+
+#: public/partials/crowdfundly-single-campaign-page.php:56
+msgid "Top Contributors"
+msgstr ""
+
+#: public/partials/crowdfundly-all-campaigns-page.php:21
+msgid "Trending"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/all-campaign-widget.php:94
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:60
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:136
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:188
+#: pagebuilders/elementor/widgets/organization-widget.php:170
+#: pagebuilders/elementor/widgets/organization-widget.php:203
+#: pagebuilders/elementor/widgets/organization-widget.php:236
+msgid "Typography"
+msgstr ""
+
+#: public/partials/crowdfundly-single-campaign-page.php:41
+msgid "Updates"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/single-campaign-widget.php:208
+msgid "Value Color"
+msgstr ""
+
+#: admin/partials/crowdfundly-settings-header.php:11
+msgid "Version:"
+msgstr ""
+
+#: admin/class-crowdfundly-admin.php:190
+msgid "Warning"
+msgstr ""
+
+#: admin/partials/crowdfunly-sign-in.php:20
+msgid "Welcome to the world of opportunities of collaboration"
+msgstr ""
+
+#: pagebuilders/elementor/widgets/organization-widget.php:53
+#: pagebuilders/elementor/widgets/organization-widget.php:97
+msgid "Width"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr ""

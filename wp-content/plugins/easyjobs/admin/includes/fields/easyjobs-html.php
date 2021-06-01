@@ -1,0 +1,1 @@
+<div class="easyjobs-html-description"><?php echo $field['html']; ?></div>

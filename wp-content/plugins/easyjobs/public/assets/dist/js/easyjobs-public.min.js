@@ -1,0 +1,1 @@
+!function(){"use strict";jQuery(".ej-social-button").on("click",function(){return window.open(this.href,"","left=20,top=20,width=600,height=300,toolbar=0,resizable=1"),!1})}();

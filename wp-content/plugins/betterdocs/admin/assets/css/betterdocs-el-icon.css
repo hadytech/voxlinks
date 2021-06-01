@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/betterdocs-el.eot?psw3l1');
+  src:  url('../fonts/betterdocs-el.eot?psw3l1#iefix') format('embedded-opentype'),
+    url('../fonts/betterdocs-el.ttf?psw3l1') format('truetype'),
+    url('../fonts/betterdocs-el.woff?psw3l1') format('woff'),
+    url('../fonts/betterdocs-el.svg?psw3l1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"],[class*="betterdocs-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.elementor-element-wrapper:not(.elementor-element--promotion) [class^="betterdocs-"]:after, 
+.elementor-element-wrapper:not(.elementor-element--promotion) [class*=" betterdocs-"]:after {
+  content: "\e90b";
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: #cdcfd2;
+}
+
+#elementor-panel__editor__help__link[href^="https://betterdocs.co/docs"]:before {
+  content: "\e90b";
+  font-family: "icomoon" !important;
+  font-size: 190%;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.betterdocs-icon-Navigation:before {
+  content: "\e900";
+}
+.betterdocs-icon-Content:before {
+  content: "\e901";
+}
+.betterdocs-icon-Social-Share:before {
+  content: "\e902";
+}
+.betterdocs-icon-title:before {
+  content: "\e903";
+}
+.betterdocs-icon-Breadcrumbs:before {
+  content: "\e904";
+}
+.betterdocs-icon-BA:before {
+  content: "\e905";
+}
+.betterdocs-icon-date:before {
+  content: "\e906";
+}
+.betterdocs-icon-feedback:before {
+  content: "\e907";
+}
+.betterdocs-icon-Reactions:before {
+  content: "\e908";
+}
+.betterdocs-icon-search:before {
+  content: "\e90c";
+}
+.betterdocs-icon-Sidebar:before {
+  content: "\e90a";
+}
+.betterdocs-icon-category-grid:before {
+  content: "\e909";
+}
+.betterdocs-icon-category-box:before {
+  content: "\e90d";
+}
+
+.betterdocs-dialog-buttons-action {
+  display: block;
+  text-align: center;
+}
+.betterdocs-ea-warning,
+.elementor-panel .elementor-control-betterdocs_section_pro .elementor-panel-heading-title {
+  color: #f54;
+  font-weight: 700;
+}
+.betterdocs-warning {
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #f3f0ca;
+  color: #886726;
+  padding: 10px;
+  border-radius: 3px;
+}
+.elementor-panel .elementor-element .icon {
+  height: 46px;
+}
